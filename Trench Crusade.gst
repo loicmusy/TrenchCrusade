@@ -27,6 +27,7 @@
     <categoryEntry name="Golem" id="c15a-8839-8c4e-c312" hidden="false" publicationId="c658-4a10-e1fe-befc" page="12"/>
     <categoryEntry name="Leader" id="afb9-39f5-82d9-46ed" hidden="false"/>
     <categoryEntry name="Pile" id="ce28-ad9a-bbc1-f1dc" hidden="true"/>
+    <categoryEntry name="Negate Fear" id="2d2d-696e-e30a-bbf4" hidden="false"/>
   </categoryEntries>
   <costTypes>
     <costType name="Ducats" id="8d43-33fd-332d-17a6" defaultCostLimit="-1"/>
@@ -143,7 +144,7 @@ spent on, and do not modify Injury Rolls for subsequent attacks.</description>
       <description>Add -1 DICE for Melee Attacks targeting a model with this Keyword, or that has a Weapon that has this Keyword, if the attacker made a Charge ACTION before making the attack this round.</description>
     </rule>
     <rule name="Fireteam" id="a3e2-4af7-ab99-e6b1" hidden="false">
-      <description>A model with this Keyword is part of a group of two models, both of which must have the FIRETEAM Keyword. Record which models are in Fireteams in your Warband on your Warband Roster. If you have more than one Fireteam, each must be given its own name. For example, you might say Carl and Gustav are in Fireteam 1 (or Alpha, or Swift Death), while Birgit and Ottokar are in Fireteam 2 (or Gamma, or Crushing Blow). Models that are part of the same Fireteam are Activated simultaneously. They can take their ACTIONS in any order you wish, and you can switch between the two models freely. However, if the Activation of either member of the Fireteam ends (due to a failed Risky Success Roll for example), it immediately ends for the other model that is in the Fireteam too.</description>
+      <description>A model with this Keyword is part of a group of two models, both of which must have the FIRETEAM Keyword. You can create Fireteams when you recruit a Warband, and in the Quartermaster Step. Record which models are in Fireteams in your Warband on your Warband Roster. You can Activate friendly models that are part of the same Fireteam simultaneously. If you do so, you can take their ACTIONS in any order you wish, and you can switch between the two models freely. However, if the Activation of either member of the Fireteam ends during a simultaneous Activation (due to a failed Risky Success Roll for example), it immediately ends for the other model that is in the Fireteam too.</description>
     </rule>
     <rule name="Flamethrower" id="78ca-3b42-f65a-3db6" hidden="false">
       <description>When a Weapon with this Keyword is used to make a Ranged Attack it is automatically a Success. Do not make a Success Roll for the attack. Note that this means that the attack cannot achieve a Critical Success.</description>
@@ -606,18 +607,9 @@ cannot be equipped with a Trench Shield and has a Charge Bonus of D3&quot; inst
         <characteristic typeId="5093-5528-b08f-1496" name="Keywords"/>
       </characteristics>
     </profile>
-    <profile name="Dum-Dum Bullets" typeId="7079-589c-df69-fa7e" typeName="Ability" hidden="false" id="254b-af21-71d6-cd8e" publicationId="c658-4a10-e1fe-befc" page="119">
-      <characteristics>
-        <characteristic name="Description" typeId="4834-43a9-1c93-9062">Before the battle begins, a model may use this item to grant a rifle or pistol weapon that they are equipped with the CRITICAL keyword until the end of the battle. 
-Keywords: CONSUMABLE, CRITICAL.</characteristic>
-        <characteristic typeId="2b32-2f45-9c06-7a77" name="Range"/>
-        <characteristic typeId="3f15-74a1-4d35-3642" name="Type"/>
-        <characteristic typeId="5093-5528-b08f-1496" name="Keywords"/>
-      </characteristics>
-    </profile>
     <profile name="Incendiary Bullets" typeId="7079-589c-df69-fa7e" typeName="Ability" hidden="false" id="01b8-f846-e8f7-6d71" publicationId="c658-4a10-e1fe-befc" page="119">
       <characteristics>
-        <characteristic name="Description" typeId="4834-43a9-1c93-9062">Incendiary: When this Battlekit is taken, you must choose 1 Ranged Weapon that the model already has that does not have the BLAST, FIRE, GAS, or SHRAPNEL Keywords. The Weapon gains the FIRE Keyword.</characteristic>
+        <characteristic name="Description" typeId="4834-43a9-1c93-9062">When this Battlekit is taken, you must choose 1 Ranged Weapon that the model already has that does not have the BLAST, FIRE, GAS, or SHRAPNEL Keywords. The Weapon gains the CRITICAL Keyword.</characteristic>
         <characteristic name="Range" typeId="2b32-2f45-9c06-7a77">-</characteristic>
         <characteristic name="Type" typeId="3f15-74a1-4d35-3642">Equipment</characteristic>
         <characteristic name="Keywords" typeId="5093-5528-b08f-1496">CONSUMABLE</characteristic>
@@ -1102,6 +1094,15 @@ instead of -1 DICE if the target has a Cloak of Alamut.</characteristic>
       <characteristics>
         <characteristic name="Description" typeId="4834-43a9-1c93-9062">Dum-Dums: When this Battlekit is taken, you must choose 1 Ranged Weapon
 that the model already has. The Weapon gains the CRITICAL Keyword.</characteristic>
+        <characteristic name="Range" typeId="2b32-2f45-9c06-7a77">-</characteristic>
+        <characteristic name="Type" typeId="3f15-74a1-4d35-3642">Equipment</characteristic>
+        <characteristic name="Keywords" typeId="5093-5528-b08f-1496">CONSUMABLE</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Holy Smoke" typeId="7079-589c-df69-fa7e" typeName="Ability" hidden="false" id="ba87-1d35-4977-50e2">
+      <characteristics>
+        <characteristic name="Description" typeId="4834-43a9-1c93-9062">Holy Smoke: When you deploy a model that has Holy Smoke, you can say that they will consume it. If you do so, until the end of the game, the model has the
+NEGATE FEAR Keyword and -1 INJURY DICE is added to Injury Rolls for attacks that hit it.</characteristic>
         <characteristic name="Range" typeId="2b32-2f45-9c06-7a77">-</characteristic>
         <characteristic name="Type" typeId="3f15-74a1-4d35-3642">Equipment</characteristic>
         <characteristic name="Keywords" typeId="5093-5528-b08f-1496">CONSUMABLE</characteristic>
