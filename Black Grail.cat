@@ -3588,12 +3588,9 @@ In this case the Homunculi can make up to two Ranged Attack ACTIONS (if it has 
         <categoryLink targetId="d935-8238-a3f7-8ab0" id="5fef-1778-7c6e-6274" primary="false" name="Negate Gas"/>
       </categoryLinks>
       <profiles>
-        <profile name="Undead Fortitude" typeId="7079-589c-df69-fa7e" typeName="Battlekit" hidden="false" id="5af2-de11-6c23-567e">
+        <profile name="Undead Fortitude" typeId="058c-866b-6487-ccc4" typeName="Ability" hidden="false" id="5af2-de11-6c23-567e">
           <characteristics>
-            <characteristic name="Type" typeId="3f15-74a1-4d35-3642"/>
-            <characteristic name="Range" typeId="2b32-2f45-9c06-7a77"/>
-            <characteristic name="Keywords" typeId="5093-5528-b08f-1496"/>
-            <characteristic name="Rules" typeId="4834-43a9-1c93-9062">Add -1 INJURY DICE to Injury Rolls for a Plague Knight unless the attack has the FIRE Keyword.</characteristic>
+            <characteristic name="Description" typeId="2ecd-b4ff-9e78-a8e2">Add -1 INJURY DICE to Injury Rolls for a Plague Knight unless the attack has the FIRE Keyword.</characteristic>
           </characteristics>
         </profile>
         <profile name="Plague Knight" typeId="b3af-94f9-2e35-d1c5" typeName="Unit" hidden="false" id="5fad-8b9c-8d6a-a2f0" publicationId="c658-4a10-e1fe-befc" page="78">
@@ -3859,20 +3856,14 @@ In this case the Homunculi can make up to two Ranged Attack ACTIONS (if it has 
             </modifier>
           </modifiers>
         </profile>
-        <profile name="Frightening Speed" typeId="7079-589c-df69-fa7e" typeName="Battlekit" hidden="false" id="9494-6d28-0c24-b18d">
+        <profile name="Frightening Speed" typeId="058c-866b-6487-ccc4" typeName="Ability" hidden="false" id="9494-6d28-0c24-b18d">
           <characteristics>
-            <characteristic name="Type" typeId="3f15-74a1-4d35-3642"/>
-            <characteristic name="Range" typeId="2b32-2f45-9c06-7a77"/>
-            <characteristic name="Keywords" typeId="5093-5528-b08f-1496"/>
-            <characteristic name="Rules" typeId="4834-43a9-1c93-9062">Add +1 DICE to the Risky Success Roll for a Hound of the Cult of the Black Grail that is taking a Dash ACTION. In addition, do not halve the Movement Characteristic of a Hound of the Cult of the Black Grail when it stands up at the start of an Activation.</characteristic>
+            <characteristic name="Description" typeId="2ecd-b4ff-9e78-a8e2">Add +1 DICE to the Risky Success Roll for a Hound of the Cult of the Black Grail that is taking a Dash ACTION. In addition, do not halve the Movement Characteristic of a Hound of the Cult of the Black Grail when it stands up at the start of an Activation.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Disease Carrier" typeId="7079-589c-df69-fa7e" typeName="Battlekit" hidden="false" id="daee-ce18-e487-8c9c">
+        <profile name="Disease Carrier" typeId="058c-866b-6487-ccc4" typeName="Ability" hidden="false" id="daee-ce18-e487-8c9c">
           <characteristics>
-            <characteristic name="Type" typeId="3f15-74a1-4d35-3642"/>
-            <characteristic name="Range" typeId="2b32-2f45-9c06-7a77"/>
-            <characteristic name="Keywords" typeId="5093-5528-b08f-1496"/>
-            <characteristic name="Rules" typeId="4834-43a9-1c93-9062">If an enemy model is Activated while it is within 1&quot; of a Hound of the Cult of the Black Grail, place 1 INFECTION MARKER next to the enemy model before it carries out any Actions.</characteristic>
+            <characteristic name="Description" typeId="2ecd-b4ff-9e78-a8e2">If an enemy model is Activated while it is within 1&quot; of a Hound of the Cult of the Black Grail, place 1 INFECTION MARKER next to the enemy model before it carries out any Actions.</characteristic>
           </characteristics>
         </profile>
         <profile name="Hounds of the Black Grail" typeId="b3af-94f9-2e35-d1c5" typeName="Unit" hidden="false" id="8fc4-805a-2894-01ad">
@@ -3891,12 +3882,9 @@ In this case the Homunculi can make up to two Ranged Attack ACTIONS (if it has 
             </modifier>
           </modifiers>
         </profile>
-        <profile name="Undead Fortitude" typeId="7079-589c-df69-fa7e" typeName="Battlekit" hidden="false" id="1e0f-7803-5158-bf35">
+        <profile name="Undead Fortitude" typeId="058c-866b-6487-ccc4" typeName="Ability" hidden="false" id="1e0f-7803-5158-bf35">
           <characteristics>
-            <characteristic name="Type" typeId="3f15-74a1-4d35-3642"/>
-            <characteristic name="Range" typeId="2b32-2f45-9c06-7a77"/>
-            <characteristic name="Keywords" typeId="5093-5528-b08f-1496"/>
-            <characteristic name="Rules" typeId="4834-43a9-1c93-9062">Add -1 INJURY DICE to Injury Rolls for a Hound of the Cult of the Black Grail unless the attack has the FIRE Keyword.</characteristic>
+            <characteristic name="Description" typeId="2ecd-b4ff-9e78-a8e2">Add -1 INJURY DICE to Injury Rolls for a Hound of the Cult of the Black Grail unless the attack has the FIRE Keyword.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4008,12 +3996,9 @@ In this case the Homunculi can make up to two Ranged Attack ACTIONS (if it has 
             </modifier>
           </modifiers>
         </profile>
-        <profile name="Overwhelming Horde" typeId="7079-589c-df69-fa7e" typeName="Battlekit" hidden="false" id="b4a6-25a1-64e7-5dae">
+        <profile name="Overwhelming Horde" typeId="058c-866b-6487-ccc4" typeName="Ability" hidden="false" id="b4a6-25a1-64e7-5dae">
           <characteristics>
-            <characteristic name="Type" typeId="3f15-74a1-4d35-3642"/>
-            <characteristic name="Range" typeId="2b32-2f45-9c06-7a77"/>
-            <characteristic name="Keywords" typeId="5093-5528-b08f-1496"/>
-            <characteristic name="Rules" typeId="4834-43a9-1c93-9062">A Grail Thrall or Fly Thrall can make a Melee Attack even though it does not have a Melee Weapon. In addition, add +1 DICE to the Success Roll for a Melee Attack made by a Grail Thrall or Fly Thrall for each other friendly model within 3&quot; of the attacking model (not including the attacking model itself).</characteristic>
+            <characteristic name="Description" typeId="2ecd-b4ff-9e78-a8e2">A Grail Thrall or Fly Thrall can make a Melee Attack even though it does not have a Melee Weapon. In addition, add +1 DICE to the Success Roll for a Melee Attack made by a Grail Thrall or Fly Thrall for each other friendly model within 3&quot; of the attacking model (not including the attacking model itself).</characteristic>
           </characteristics>
         </profile>
         <profile name="Ravenous Infection" typeId="058c-866b-6487-ccc4" typeName="Ability" hidden="true" id="77bc-921d-3de0-55b4">
@@ -4487,28 +4472,19 @@ In this case the Homunculi can make up to two Ranged Attack ACTIONS (if it has 
         <infoLink name="Strong" id="d93b-1470-9892-5a44" hidden="false" type="rule" targetId="6297-d0e0-1935-5cfd"/>
       </infoLinks>
       <profiles>
-        <profile name="Corpulent" typeId="7079-589c-df69-fa7e" typeName="Battlekit" hidden="false" id="25e6-11bb-8833-ff82">
+        <profile name="Corpulent" typeId="058c-866b-6487-ccc4" typeName="Ability" hidden="false" id="25e6-11bb-8833-ff82">
           <characteristics>
-            <characteristic name="Type" typeId="3f15-74a1-4d35-3642"/>
-            <characteristic name="Range" typeId="2b32-2f45-9c06-7a77"/>
-            <characteristic name="Keywords" typeId="5093-5528-b08f-1496"/>
-            <characteristic name="Rules" typeId="4834-43a9-1c93-9062">Add -2 DICE to Injury Rolls for any attacks that target an Amalgam model.</characteristic>
+            <characteristic name="Description" typeId="2ecd-b4ff-9e78-a8e2">Add -2 DICE to Injury Rolls for any attacks that target an Amalgam model.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Unstoppable" typeId="7079-589c-df69-fa7e" typeName="Battlekit" hidden="false" id="b2bd-73a1-5f59-aa1f">
+        <profile name="Unstoppable" typeId="058c-866b-6487-ccc4" typeName="Ability" hidden="false" id="b2bd-73a1-5f59-aa1f">
           <characteristics>
-            <characteristic name="Type" typeId="3f15-74a1-4d35-3642"/>
-            <characteristic name="Range" typeId="2b32-2f45-9c06-7a77"/>
-            <characteristic name="Keywords" typeId="5093-5528-b08f-1496"/>
-            <characteristic name="Rules" typeId="4834-43a9-1c93-9062">Enemy models that are mounted on a base of 32mm or less are not allowed to make a Melee Attack when an Amalgam that is within 1&quot; of them retreats. In addition, an Amalgam can use a normal move or a charge move if all enemy models within 1&quot; of it are mounted on bases of 32mm or less.</characteristic>
+            <characteristic name="Description" typeId="2ecd-b4ff-9e78-a8e2">Enemy models that are mounted on a base of 32mm or less are not allowed to make a Melee Attack when an Amalgam that is within 1&quot; of them retreats. In addition, an Amalgam can use a normal move or a charge move if all enemy models within 1&quot; of it are mounted on bases of 32mm or less.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Trample" typeId="7079-589c-df69-fa7e" typeName="Battlekit" hidden="false" id="c927-1f41-5473-f2f2">
+        <profile name="Trample" typeId="058c-866b-6487-ccc4" typeName="Ability" hidden="false" id="c927-1f41-5473-f2f2">
           <characteristics>
-            <characteristic name="Type" typeId="3f15-74a1-4d35-3642"/>
-            <characteristic name="Range" typeId="2b32-2f45-9c06-7a77"/>
-            <characteristic name="Keywords" typeId="5093-5528-b08f-1496"/>
-            <characteristic name="Rules" typeId="4834-43a9-1c93-9062">An Amalgam can take a Trample ACTION. If it does so, it can make a Melee Attack that must target an enemy model that is Down. A Trample Melee Attack does not use a Melee Weapon and has the IGNORE ARMOUR Keyword</characteristic>
+            <characteristic name="Description" typeId="2ecd-b4ff-9e78-a8e2">An Amalgam can take a Trample ACTION. If it does so, it can make a Melee Attack that must target an enemy model that is Down. A Trample Melee Attack does not use a Melee Weapon and has the IGNORE ARMOUR Keyword</characteristic>
           </characteristics>
         </profile>
         <profile name="Amalgam" typeId="b3af-94f9-2e35-d1c5" typeName="Unit" hidden="false" id="e5d5-c4bb-4b99-020d">
@@ -4527,20 +4503,14 @@ In this case the Homunculi can make up to two Ranged Attack ACTIONS (if it has 
             </modifier>
           </modifiers>
         </profile>
-        <profile name="Six-armed Monstrosity" typeId="7079-589c-df69-fa7e" typeName="Battlekit" hidden="false" id="7d24-3042-d6c2-f5bc">
+        <profile name="Six-armed Monstrosity" typeId="058c-866b-6487-ccc4" typeName="Ability" hidden="false" id="7d24-3042-d6c2-f5bc">
           <characteristics>
-            <characteristic name="Type" typeId="3f15-74a1-4d35-3642"/>
-            <characteristic name="Range" typeId="2b32-2f45-9c06-7a77"/>
-            <characteristic name="Keywords" typeId="5093-5528-b08f-1496"/>
-            <characteristic name="Rules" typeId="4834-43a9-1c93-9062">The rules for making more than one Ranged or Melee Attack do not apply to an Amalgam. Instead an Amalgam can take 1 Shoot ACTION per Activation with each Ranged Weapon it is equipped with, and can take 1 Fight ACTION per Activation with each Melee Weapon it is equipped with. The Off-Hand Weapon modifier does not apply to any of its Melee Attacks</characteristic>
+            <characteristic name="Description" typeId="2ecd-b4ff-9e78-a8e2">The rules for making more than one Ranged or Melee Attack do not apply to an Amalgam. Instead an Amalgam can take 1 Shoot ACTION per Activation with each Ranged Weapon it is equipped with, and can take 1 Fight ACTION per Activation with each Melee Weapon it is equipped with. The Off-Hand Weapon modifier does not apply to any of its Melee Attacks</characteristic>
           </characteristics>
         </profile>
-        <profile name="Strong-ish" typeId="7079-589c-df69-fa7e" typeName="Battlekit" hidden="false" id="a01c-f868-09d3-8cb7">
+        <profile name="Strong-ish" typeId="058c-866b-6487-ccc4" typeName="Ability" hidden="false" id="a01c-f868-09d3-8cb7">
           <characteristics>
-            <characteristic typeId="3f15-74a1-4d35-3642" name="Type"/>
-            <characteristic typeId="2b32-2f45-9c06-7a77" name="Range"/>
-            <characteristic typeId="5093-5528-b08f-1496" name="Keywords"/>
-            <characteristic name="Rules" typeId="4834-43a9-1c93-9062">Two of the arms of the Amalgam have the Keyword STRONG. It can wield any two HEAVY weapons of its choice, each using one hand regardless of the weapon rules.</characteristic>
+            <characteristic name="Description" typeId="2ecd-b4ff-9e78-a8e2">Two of the arms of the Amalgam have the Keyword STRONG. It can wield any two HEAVY weapons of its choice, each using one hand regardless of the weapon rules.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4628,28 +4598,19 @@ In this case the Homunculi can make up to two Ranged Attack ACTIONS (if it has 
             </modifier>
           </modifiers>
         </profile>
-        <profile name="Undead Fortitude" typeId="7079-589c-df69-fa7e" typeName="Battlekit" hidden="false" id="dae4-94a1-1c22-0c9a">
+        <profile name="Undead Fortitude" typeId="058c-866b-6487-ccc4" typeName="Ability" hidden="false" id="dae4-94a1-1c22-0c9a">
           <characteristics>
-            <characteristic name="Type" typeId="3f15-74a1-4d35-3642"/>
-            <characteristic name="Range" typeId="2b32-2f45-9c06-7a77"/>
-            <characteristic name="Keywords" typeId="5093-5528-b08f-1496"/>
-            <characteristic name="Rules" typeId="4834-43a9-1c93-9062">Add -1 INJURY DICE to Injury Rolls for a Lord of Tumours unless the attack has the FIRE Keyword.</characteristic>
+            <characteristic name="Description" typeId="2ecd-b4ff-9e78-a8e2">Add -1 INJURY DICE to Injury Rolls for a Lord of Tumours unless the attack has the FIRE Keyword.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Beelzebub’s Touch" typeId="7079-589c-df69-fa7e" typeName="Battlekit" hidden="false" id="f662-8943-c553-035f">
+        <profile name="Beelzebub’s Touch" typeId="058c-866b-6487-ccc4" typeName="Ability" hidden="false" id="f662-8943-c553-035f">
           <characteristics>
-            <characteristic name="Type" typeId="3f15-74a1-4d35-3642"/>
-            <characteristic name="Range" typeId="2b32-2f45-9c06-7a77"/>
-            <characteristic name="Keywords" typeId="5093-5528-b08f-1496"/>
-            <characteristic name="Rules" typeId="4834-43a9-1c93-9062">Whenever a Melee Attack made by a Lord of Tumours causes any BLOOD MARKERS or INFECTION MARKERS to be placed on the target, place 1 extra INFECTION MARKER next to the target model</characteristic>
+            <characteristic name="Description" typeId="2ecd-b4ff-9e78-a8e2">Whenever a Melee Attack made by a Lord of Tumours causes any BLOOD MARKERS or INFECTION MARKERS to be placed on the target, place 1 extra INFECTION MARKER next to the target model</characteristic>
           </characteristics>
         </profile>
-        <profile name="Crushing Blows" typeId="7079-589c-df69-fa7e" typeName="Battlekit" hidden="false" id="25bc-e870-f2a0-877a">
+        <profile name="Crushing Blows" typeId="058c-866b-6487-ccc4" typeName="Ability" hidden="false" id="25bc-e870-f2a0-877a">
           <characteristics>
-            <characteristic name="Type" typeId="3f15-74a1-4d35-3642"/>
-            <characteristic name="Range" typeId="2b32-2f45-9c06-7a77"/>
-            <characteristic name="Keywords" typeId="5093-5528-b08f-1496"/>
-            <characteristic name="Rules" typeId="4834-43a9-1c93-9062">A Lord of Tumours can make a Crushing Blows Melee Attack instead of using any Melee Weapons that it has. If does so, it can attack twice and the Off-Hand modifier does not apply to the second attack.</characteristic>
+            <characteristic name="Description" typeId="2ecd-b4ff-9e78-a8e2">A Lord of Tumours can make a Crushing Blows Melee Attack instead of using any Melee Weapons that it has. If does so, it can attack twice and the Off-Hand modifier does not apply to the second attack.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4768,20 +4729,14 @@ In this case the Homunculi can make up to two Ranged Attack ACTIONS (if it has 
             </modifier>
           </modifiers>
         </profile>
-        <profile name="Undead Fortitude" typeId="7079-589c-df69-fa7e" typeName="Battlekit" hidden="false" id="b3e7-566c-fefe-402d">
+        <profile name="Undead Fortitude" typeId="058c-866b-6487-ccc4" typeName="Ability" hidden="false" id="b3e7-566c-fefe-402d">
           <characteristics>
-            <characteristic name="Type" typeId="3f15-74a1-4d35-3642"/>
-            <characteristic name="Range" typeId="2b32-2f45-9c06-7a77"/>
-            <characteristic name="Keywords" typeId="5093-5528-b08f-1496"/>
-            <characteristic name="Rules" typeId="4834-43a9-1c93-9062">Add -1 INJURY DICE to Injury Rolls for a Corpse Guard unless the attack has the FIRE Keyword.</characteristic>
+            <characteristic name="Description" typeId="2ecd-b4ff-9e78-a8e2">Add -1 INJURY DICE to Injury Rolls for a Corpse Guard unless the attack has the FIRE Keyword.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Bodyguard" typeId="7079-589c-df69-fa7e" typeName="Battlekit" hidden="false" id="77fd-38d3-3b6c-4a77">
+        <profile name="Bodyguard" typeId="058c-866b-6487-ccc4" typeName="Ability" hidden="false" id="77fd-38d3-3b6c-4a77">
           <characteristics>
-            <characteristic name="Type" typeId="3f15-74a1-4d35-3642"/>
-            <characteristic name="Range" typeId="2b32-2f45-9c06-7a77"/>
-            <characteristic name="Keywords" typeId="5093-5528-b08f-1496"/>
-            <characteristic name="Rules" typeId="4834-43a9-1c93-9062">If a friendly Cult of the Black Grail model within 1&quot; of a Corpse Guard is hit by a Ranged Attack or Melee Attack, you can say that the Corpse Guard will take the hit. If you do so, make an Injury Roll for the Corpse Guard instead of the original target. This ability cannot be used against attacks that have the BLAST Keyword.</characteristic>
+            <characteristic name="Description" typeId="2ecd-b4ff-9e78-a8e2">If a friendly Cult of the Black Grail model within 1&quot; of a Corpse Guard is hit by a Ranged Attack or Melee Attack, you can say that the Corpse Guard will take the hit. If you do so, make an Injury Roll for the Corpse Guard instead of the original target. This ability cannot be used against attacks that have the BLAST Keyword.</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -4791,12 +4746,9 @@ In this case the Homunculi can make up to two Ranged Attack ACTIONS (if it has 
             </modifier>
           </modifiers>
         </profile>
-        <profile name="Parasitic Tick" typeId="7079-589c-df69-fa7e" typeName="Battlekit" hidden="false" id="45af-c659-4300-106e">
+        <profile name="Parasitic Tick" typeId="058c-866b-6487-ccc4" typeName="Ability" hidden="false" id="45af-c659-4300-106e">
           <characteristics>
-            <characteristic name="Type" typeId="3f15-74a1-4d35-3642"/>
-            <characteristic name="Range" typeId="2b32-2f45-9c06-7a77"/>
-            <characteristic name="Keywords" typeId="5093-5528-b08f-1496"/>
-            <characteristic name="Rules" typeId="4834-43a9-1c93-9062">Whenever a Melee Attack made by a Corpse Guard causes any BLOOD MARKERS or INFECTION MARKERS to be placed on the target, you can remove up to 1 BLOOD MARKER or INFECTION MARKER from the attacking Corpse Guard model.</characteristic>
+            <characteristic name="Description" typeId="2ecd-b4ff-9e78-a8e2">Whenever a Melee Attack made by a Corpse Guard causes any BLOOD MARKERS or INFECTION MARKERS to be placed on the target, you can remove up to 1 BLOOD MARKER or INFECTION MARKER from the attacking Corpse Guard model.</characteristic>
           </characteristics>
         </profile>
         <profile name="Shredding" typeId="058c-866b-6487-ccc4" typeName="Ability" hidden="true" id="9efd-0157-4c7e-8f26">
