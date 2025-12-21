@@ -99,7 +99,7 @@
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Blessed Icon" hidden="false" id="7fe2-1e98-21d4-5575" sortIndex="4">
+        <selectionEntry type="upgrade" import="true" name="Blessed Icon" hidden="false" id="7fe2-1e98-21d4-5575" sortIndex="5">
           <costs>
             <cost name="Ducats" typeId="8d43-33fd-332d-17a6" value="15"/>
             <cost name="Glory Points" typeId="f3bb-a7e6-d476-f60b" value="0"/>
@@ -112,7 +112,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1bd1-0a93-1c86-dc24" includeChildSelections="false"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Holy Relic" hidden="true" id="bec5-d188-51e4-a6ba" sortIndex="5">
+        <selectionEntry type="upgrade" import="true" name="Holy Relic" hidden="true" id="bec5-d188-51e4-a6ba" sortIndex="7">
           <costs>
             <cost name="Glory Points" typeId="f3bb-a7e6-d476-f60b" value="2"/>
           </costs>
@@ -131,7 +131,7 @@
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Incendiary Ammunition" hidden="false" id="a9ac-52e3-8dcc-21e0" sortIndex="6">
+        <selectionEntry type="upgrade" import="true" name="Incendiary Ammunition" hidden="false" id="a9ac-52e3-8dcc-21e0" sortIndex="8">
           <costs>
             <cost name="Ducats" typeId="8d43-33fd-332d-17a6" value="15"/>
             <cost name="Glory Points" typeId="f3bb-a7e6-d476-f60b" value="0"/>
@@ -172,7 +172,7 @@
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Medi-kit" hidden="false" id="bdd7-148f-3e74-b2f4" sortIndex="7">
+        <selectionEntry type="upgrade" import="true" name="Medi-kit" hidden="false" id="bdd7-148f-3e74-b2f4" sortIndex="9">
           <costs>
             <cost name="Ducats" typeId="8d43-33fd-332d-17a6" value="5"/>
             <cost name="Glory Points" typeId="f3bb-a7e6-d476-f60b" value="0"/>
@@ -184,7 +184,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4d36-ec04-1476-ff5e" includeChildSelections="false"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Martyrdom Pills" hidden="false" id="5be6-c8c4-8039-61fe" sortIndex="9">
+        <selectionEntry type="upgrade" import="true" name="Martyrdom Pills" hidden="false" id="5be6-c8c4-8039-61fe" sortIndex="11">
           <costs>
             <cost name="Ducats" typeId="8d43-33fd-332d-17a6" value="20"/>
             <cost name="Glory Points" typeId="f3bb-a7e6-d476-f60b" value="0"/>
@@ -211,7 +211,7 @@
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Mountaineer Kit" hidden="false" id="035b-46ad-68c5-adf7" sortIndex="8">
+        <selectionEntry type="upgrade" import="true" name="Mountaineer Kit" hidden="false" id="035b-46ad-68c5-adf7" sortIndex="10">
           <costs>
             <cost name="Ducats" typeId="8d43-33fd-332d-17a6" value="3"/>
             <cost name="Glory Points" typeId="f3bb-a7e6-d476-f60b" value="0"/>
@@ -280,7 +280,7 @@ first BLOOD MARKER placed on the model is ignored.
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="15cf-bee7-aa7e-cd95" includeChildSelections="true"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Field Shrine" hidden="false" id="e6f1-8965-19f9-ee33" sortIndex="12">
+        <selectionEntry type="upgrade" import="true" name="Field Shrine" hidden="false" id="e6f1-8965-19f9-ee33" sortIndex="15">
           <costs>
             <cost name="Glory Points" typeId="f3bb-a7e6-d476-f60b" value="2"/>
           </costs>
@@ -305,7 +305,7 @@ first BLOOD MARKER placed on the model is ignored.
             </modifier>
           </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Henbrane" hidden="true" id="5714-931f-09eb-f186" sortIndex="4">
+        <selectionEntry type="upgrade" import="true" name="Henbrane" hidden="true" id="5714-931f-09eb-f186" sortIndex="6">
           <costs>
             <cost name="Ducats" typeId="8d43-33fd-332d-17a6" value="15"/>
             <cost name="Glory Points" typeId="f3bb-a7e6-d476-f60b" value="0"/>
@@ -340,6 +340,111 @@ first BLOOD MARKER placed on the model is ignored.
               </conditionGroups>
             </modifier>
           </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Vial of Sacred Blood" hidden="true" id="a044-b711-a070-1fde" sortIndex="12">
+          <costs>
+            <cost name="Ducats" typeId="8d43-33fd-332d-17a6" value="10"/>
+            <cost name="Glory Points" typeId="f3bb-a7e6-d476-f60b" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="543b-95fb-3365-f0b2" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fb2b-cd3e-17d0-d052"/>
+          </constraints>
+          <profiles>
+            <profile name="Vial of Sacred Blood" typeId="7079-589c-df69-fa7e" typeName="Battlekit" hidden="false" id="46e0-2951-2f2a-a32f">
+              <characteristics>
+                <characteristic name="Type" typeId="3f15-74a1-4d35-3642">Equipment</characteristic>
+                <characteristic name="Range" typeId="2b32-2f45-9c06-7a77">-</characteristic>
+                <characteristic name="Keywords" typeId="5093-5528-b08f-1496">CONSUMABLE</characteristic>
+                <characteristic name="Rules" typeId="4834-43a9-1c93-9062">Wine of God: At the beginning of the mission, the Vial of Sacred Blood is used and the model gains:
+* Blood Frenzy: When this model is making a Melee Attack, they can use one BLESSING MARKER as BLOOD MARKER to add +INJURY DICE or for BLOODBATH.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="5f8f-4f9a-c53b-91e9" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <comment>Monastery</comment>
+          <infoLinks>
+            <infoLink name="Consumable" id="33fc-08a6-fca8-16d7" hidden="false" type="rule" targetId="e98d-4bd1-3870-27b9"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Crown of Thorn" hidden="true" id="6001-eef5-9fb8-990e" sortIndex="4">
+          <costs>
+            <cost name="Ducats" typeId="8d43-33fd-332d-17a6" value="5"/>
+            <cost name="Glory Points" typeId="f3bb-a7e6-d476-f60b" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6d3a-3cd2-2a43-0ba9"/>
+          </constraints>
+          <profiles>
+            <profile name="Crown of Thorn" typeId="7079-589c-df69-fa7e" typeName="Battlekit" hidden="false" id="2639-927d-94a9-ef53">
+              <characteristics>
+                <characteristic name="Type" typeId="3f15-74a1-4d35-3642">Equipment</characteristic>
+                <characteristic name="Range" typeId="2b32-2f45-9c06-7a77">-</characteristic>
+                <characteristic name="Keywords" typeId="5093-5528-b08f-1496">-</characteristic>
+                <characteristic name="Rules" typeId="4834-43a9-1c93-9062">Stigmata: At the end of this model Activation, add a BLOOD MARKER on it.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="5f8f-4f9a-c53b-91e9" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <comment>Monastery</comment>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Communicant Flesh" hidden="true" id="8f71-c236-56ef-0c26" sortIndex="12">
+          <costs>
+            <cost name="Glory Points" typeId="f3bb-a7e6-d476-f60b" value="3"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1c7e-7b91-d34a-cc9e" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <profiles>
+            <profile name="Commuicant Flesh" typeId="7079-589c-df69-fa7e" typeName="Battlekit" hidden="false" id="b12d-c588-f0ae-5f78">
+              <characteristics>
+                <characteristic name="Type" typeId="3f15-74a1-4d35-3642">Equipment</characteristic>
+                <characteristic name="Range" typeId="2b32-2f45-9c06-7a77">-</characteristic>
+                <characteristic name="Keywords" typeId="5093-5528-b08f-1496"/>
+                <characteristic name="Rules" typeId="4834-43a9-1c93-9062">Flesh of God: The carrier gains STRONG and TOUGH, and if they are not ELITE they become ELITE.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="5f8f-4f9a-c53b-91e9" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="model" childId="caa2-22ce-1bc5-4d51" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <comment>Monastery</comment>
+          <infoLinks>
+            <infoLink name="Consumable" id="ea95-06d7-ec52-5784" hidden="false" type="rule" targetId="e98d-4bd1-3870-27b9"/>
+          </infoLinks>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="add" value="afcc-5f24-1c7c-63c4" field="category" scope="parent"/>
+                <modifier type="add" value="914f-0020-0d97-e217" field="category" scope="parent"/>
+                <modifier type="set-primary" value="3de0-192c-3ec2-51be" field="category" scope="parent"/>
+                <modifier type="add" value="3de0-192c-3ec2-51be" field="category" scope="parent"/>
+                <modifier type="remove" value="bd43-ddb1-262d-4489" field="category" scope="parent"/>
+                <modifier type="unset-primary" value="bd43-ddb1-262d-4489" field="category" scope="parent"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -412,13 +517,13 @@ first BLOOD MARKER placed on the model is ignored.
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink import="true" name="Horn of Joshua" hidden="false" id="0620-8c6a-c05d-e36d" type="selectionEntry" targetId="d954-b3b8-db5f-0026" sortIndex="13"/>
+        <entryLink import="true" name="Horn of Joshua" hidden="false" id="0620-8c6a-c05d-e36d" type="selectionEntry" targetId="d954-b3b8-db5f-0026" sortIndex="16"/>
         <entryLink import="true" name="Blasphemous Banner" hidden="true" id="d0e0-774c-120f-eb89" type="selectionEntry" targetId="ac5b-0ae8-e0cd-5fda"/>
         <entryLink import="true" name="Curative Fluids" hidden="true" id="eced-e795-aa11-ed5a" type="selectionEntry" targetId="0e49-dfa5-4190-ee69"/>
         <entryLink import="true" name="Lock of Samson&apos;s Hair" hidden="false" id="f264-2ade-c985-d3d7" type="selectionEntry" targetId="9b61-d0a4-dd30-2d32"/>
         <entryLink import="true" name="Saints Reliquary" hidden="true" id="5d29-e0b3-1ac1-c9ae" type="selectionEntry" targetId="cf19-f306-c26c-1537"/>
-        <entryLink import="true" name="Dog Food" hidden="false" id="5e90-ed78-533d-3a9b" type="selectionEntry" targetId="05f3-2ee4-36c0-8c25" sortIndex="10"/>
-        <entryLink import="true" name="Rocket-Propelled Grenade" hidden="true" id="3508-a51d-ef3f-c1a1" type="selectionEntry" targetId="e365-c945-740f-e764" sortIndex="11"/>
+        <entryLink import="true" name="Dog Food" hidden="false" id="5e90-ed78-533d-3a9b" type="selectionEntry" targetId="05f3-2ee4-36c0-8c25" sortIndex="13"/>
+        <entryLink import="true" name="Rocket-Propelled Grenade" hidden="true" id="3508-a51d-ef3f-c1a1" type="selectionEntry" targetId="e365-c945-740f-e764" sortIndex="14"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup name="Throwables" id="70c8-b7ed-f20b-8bd6" hidden="false">
@@ -433,6 +538,38 @@ first BLOOD MARKER placed on the model is ignored.
             <cost name="Ducats" typeId="8d43-33fd-332d-17a6" value="5"/>
             <cost name="Glory Points" typeId="f3bb-a7e6-d476-f60b" value="0"/>
           </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Holy Nail" hidden="true" id="0a78-c52a-3a3a-005f" sortIndex="2">
+          <infoLinks>
+            <infoLink name="Assault" id="8651-ecda-0e19-ad9c" hidden="false" type="rule" targetId="3136-7aab-4bde-9583"/>
+            <infoLink name="Ignore [Modifier]" id="65a4-d080-b4d9-e1e0" hidden="false" type="rule" targetId="fd2f-4a14-7db4-8ec9"/>
+            <infoLink name="Armour Piercing" id="ee16-ed5b-9f4d-a191" hidden="false" type="rule" targetId="ba7a-64b6-e87b-0ecd"/>
+            <infoLink name="Ignore Armour" id="ba34-9bb2-fa79-9a02" hidden="false" type="rule" targetId="f745-3388-e51a-0637"/>
+          </infoLinks>
+          <costs>
+            <cost name="Ducats" typeId="8d43-33fd-332d-17a6" value="8"/>
+            <cost name="Glory Points" typeId="f3bb-a7e6-d476-f60b" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="5f8f-4f9a-c53b-91e9" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile name="Holy Nail" typeId="7079-589c-df69-fa7e" typeName="Battlekit" hidden="false" id="d53e-78e0-39e8-6927">
+              <characteristics>
+                <characteristic name="Type" typeId="3f15-74a1-4d35-3642">Grenade</characteristic>
+                <characteristic name="Range" typeId="2b32-2f45-9c06-7a77">8&quot;</characteristic>
+                <characteristic name="Keywords" typeId="5093-5528-b08f-1496">ASSAULT, ARMOUR PIERCING, IGNORE LONG RANGE</characteristic>
+                <characteristic name="Rules" typeId="4834-43a9-1c93-9062">Find the Weak Point: If the Success Roll for a Ranged Attack made with a Sacred Nail is a Critical Success, then the Injury Roll for the attack has the IGNORE ARMOUR Keyword.
+
+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <comment>Monastery</comment>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -548,6 +685,11 @@ first BLOOD MARKER placed on the model is ignored.
                 <condition type="instanceOf" value="1" field="selections" scope="model" childId="08cc-f1b9-e991-e191" shared="true"/>
               </conditions>
             </modifier>
+            <modifier type="set" value="-1" field="dda2-74bc-f125-de14">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="5f8f-4f9a-c53b-91e9" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Flail" hidden="false" id="f2b9-4126-9882-089d" sortIndex="4" collective="false">
@@ -620,10 +762,51 @@ first BLOOD MARKER placed on the model is ignored.
                 <repeat value="1" repeats="1" field="selections" scope="roster" childId="08ce-5f7f-1a52-7f1f" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
               </repeats>
             </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="5f8f-4f9a-c53b-91e9" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="2196-6428-6d3c-b6d3" includeChildSelections="true"/>
           </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Sin Piercer" hidden="true" id="1eaf-9bd1-55f7-12b9" collective="false" sortIndex="3">
+          <costs>
+            <cost name="Ducats" typeId="8d43-33fd-332d-17a6" value="25"/>
+            <cost name="Glory Points" typeId="f3bb-a7e6-d476-f60b" value="0"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Armour Piercing" id="a842-3493-9034-d82e" hidden="false" type="rule" targetId="ba7a-64b6-e87b-0ecd"/>
+            <infoLink name="Ignore Armour" id="10dd-69b2-c35a-11ae" hidden="false" type="rule" targetId="f745-3388-e51a-0637"/>
+            <infoLink name="Critical" id="a7dc-c684-ec69-7750" hidden="false" type="rule" targetId="7c40-254f-6d33-854c"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="5f8f-4f9a-c53b-91e9" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="3920-343c-c26c-66b7">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="roster" childId="08ce-5f7f-1a52-7f1f" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="3920-343c-c26c-66b7" includeChildSelections="true"/>
+          </constraints>
+          <profiles>
+            <profile name="Sin Piercer" typeId="090c-b12e-592a-9874" typeName="Weapon" hidden="false" id="d091-0e2d-3215-5344">
+              <characteristics>
+                <characteristic name="Type" typeId="f90e-171a-4ca6-3845">2-handed</characteristic>
+                <characteristic name="Range" typeId="31a7-b5e8-41dc-5fd1">Melee</characteristic>
+                <characteristic name="Keywords" typeId="8cd6-8018-f2da-5ede">+1 INJURY DICE, CRITICAL, ARMOUR PIERCING</characteristic>
+                <characteristic name="Rules" typeId="87f0-637b-734a-22eb">Straight to the Heart: If the Success Roll for a Melee Attack made with a Sin-Piercer is a Critical Success, then the Injury Roll for the attack has the IGNORE ARMOUR Keyword.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -870,6 +1053,11 @@ first BLOOD MARKER placed on the model is ignored.
                 <repeat value="1" repeats="1" field="selections" scope="roster" childId="9bae-2e47-3b68-cd5e" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
               </repeats>
             </modifier>
+            <modifier type="set" value="-1" field="b53b-2e37-a178-dbf1">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="5f8f-4f9a-c53b-91e9" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <entryLinks>
             <entryLink import="true" name="Incendiary Ammuntion (Loaded)" hidden="false" id="2c37-dd5c-e96d-0d4a" type="selectionEntry" targetId="7131-70c4-895c-6e5f"/>
@@ -972,6 +1160,11 @@ first BLOOD MARKER placed on the model is ignored.
               <repeats>
                 <repeat value="1" repeats="1" field="selections" scope="roster" childId="09bc-9cfb-0aa8-5923" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
               </repeats>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="5f8f-4f9a-c53b-91e9" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
             </modifier>
           </modifiers>
         </selectionEntry>
@@ -1096,6 +1289,41 @@ first BLOOD MARKER placed on the model is ignored.
           <infoLinks>
             <infoLink name="Musket" id="722e-9a97-534c-be00" hidden="false" type="profile" targetId="b5e4-35bd-ba00-55c0"/>
           </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Sniper Rifle" hidden="true" id="2bce-e778-fee1-6990" sortIndex="7">
+          <costs>
+            <cost name="Ducats" typeId="8d43-33fd-332d-17a6" value="35"/>
+          </costs>
+          <infoLinks>
+            <infoLink name="Sniper Rifle" id="955e-5bf2-bdd6-d49a" hidden="false" type="profile" targetId="6eb2-c600-98e7-16d3">
+              <modifiers>
+                <modifier type="increment" value="6" field="31a7-b5e8-41dc-5fd1">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="model" childId="4467-39c5-0252-1b2d" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Risky" id="ba08-3bd1-81a2-b3fa" hidden="false" type="rule" targetId="df23-62bc-775e-fca1"/>
+            <infoLink name="Critical" id="c346-6f79-37a1-aa63" hidden="false" type="rule" targetId="7c40-254f-6d33-854c"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Heavy" hidden="false" id="e94c-2414-820b-3df2" targetId="70c9-988d-71a7-7654" primary="false"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink import="true" name="Incendiary Ammuntion (Loaded)" hidden="false" id="1694-47f1-82d1-5dd6" type="selectionEntry" targetId="7131-70c4-895c-6e5f"/>
+          </entryLinks>
+          <comment>Monastery</comment>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="5f8f-4f9a-c53b-91e9" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="bbdc-46ef-99be-383f" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1351,6 +1579,38 @@ first BLOOD MARKER placed on the model is ignored.
               </characteristics>
             </profile>
           </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Reliquary" hidden="true" id="d7f6-8ae1-caa3-01cb">
+          <costs>
+            <cost name="Ducats" typeId="8d43-33fd-332d-17a6" value="15"/>
+            <cost name="Glory Points" typeId="f3bb-a7e6-d476-f60b" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a1e2-8341-7528-b3e6" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <profiles>
+            <profile name="Reliquary" typeId="7079-589c-df69-fa7e" typeName="Battlekit" hidden="false" id="0f03-3a18-217e-30b5">
+              <characteristics>
+                <characteristic name="Type" typeId="3f15-74a1-4d35-3642">Equipment</characteristic>
+                <characteristic name="Range" typeId="2b32-2f45-9c06-7a77">-</characteristic>
+                <characteristic name="Keywords" typeId="5093-5528-b08f-1496">HELD</characteristic>
+                <characteristic name="Rules" typeId="4834-43a9-1c93-9062"> Relic Carrier: At the beginning of the mission, choose one of the following:
+* St Siena’s Reliquary: The bearer can take a Reliquary ACTION. If they do so, take a Success Roll for the model and add +1 DICE to the roll. If the roll is a Success or Critical Success, you can replace one INFECTION MARKER by a BLOOD MARKER on up to two friendly models within 8” from the Relic Carrier.
+* St Hosanna’s Reliquary: The bearer can take a Reliquary ACTION. If they do so, take a Success Roll for the model and add +1 DICE to the roll. If the roll is a Success or Critical Success, place one BLOOD MARKER and one BLESSING MARKER on 1 model (friend or foe) within 8” from the Relic Carrier.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="5f8f-4f9a-c53b-91e9" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <comment>Monastery</comment>
+          <infoLinks>
+            <infoLink name="Held" id="fdf1-ab8c-0697-ee15" hidden="false" type="rule" targetId="1220-c65a-89ed-96a7"/>
+          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -3050,6 +3310,11 @@ In this case the Homunculi can make up to two Ranged Attack ACTIONS (if it has 
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="8b6b-5bd4-c742-bb12" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="5f8f-4f9a-c53b-91e9" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <costs>
         <cost name="Ducats" typeId="8d43-33fd-332d-17a6" value="50"/>
@@ -3179,6 +3444,11 @@ In this case the Homunculi can make up to two Ranged Attack ACTIONS (if it has 
         <modifier type="add" value="afcc-5f24-1c7c-63c4" field="category">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="self" childId="6082-859c-8347-2a94" shared="true" includeChildSelections="false"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="5f8f-4f9a-c53b-91e9" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -3373,6 +3643,7 @@ In this case the Homunculi can make up to two Ranged Attack ACTIONS (if it has 
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="52bc-6b21-136a-608d" shared="true" includeChildSelections="true"/>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="65bd-e9b5-eea8-5f65" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="5f8f-4f9a-c53b-91e9" shared="true" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -3496,9 +3767,14 @@ In this case the Homunculi can make up to two Ranged Attack ACTIONS (if it has 
       </infoLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="65bd-e9b5-eea8-5f65" shared="true" includeChildSelections="true" includeChildForces="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="65bd-e9b5-eea8-5f65" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="7d36-cb39-afeb-b2d5" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </selectionEntry>
@@ -3599,6 +3875,11 @@ In this case the Homunculi can make up to two Ranged Attack ACTIONS (if it has 
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="7d36-cb39-afeb-b2d5" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <entryLinks>
         <entryLink import="true" name="Exploration Upgrades" hidden="false" id="e167-3855-3d16-e85d" type="selectionEntryGroup" targetId="6aaa-88b6-f64b-4776" sortIndex="3"/>
@@ -3608,7 +3889,7 @@ In this case the Homunculi can make up to two Ranged Attack ACTIONS (if it has 
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Stigmatic Nun" hidden="false" id="caa2-22ce-1bc5-4d51">
       <profiles>
-        <profile name="Nun" typeId="b3af-94f9-2e35-d1c5" typeName="Unit" hidden="false" id="951c-0a8e-c90d-6c3c">
+        <profile name="Stigmatic Nun" typeId="b3af-94f9-2e35-d1c5" typeName="Unit" hidden="false" id="951c-0a8e-c90d-6c3c">
           <characteristics>
             <characteristic name="Movement" typeId="b725-e0a4-16ae-8df2">8&quot;/Infantry</characteristic>
             <characteristic name="Ranged" typeId="1a4f-d2cd-c405-6200">+1 Dice</characteristic>
@@ -3743,6 +4024,11 @@ In this case the Homunculi can make up to two Ranged Attack ACTIONS (if it has 
             <repeat value="1" repeats="1" field="selections" scope="roster" childId="e178-620d-98ee-eadd" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
           </repeats>
         </modifier>
+        <modifier type="increment" value="1" field="40e9-292f-3ade-d4f5">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="roster" childId="b764-5742-7a71-6372" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+          </repeats>
+        </modifier>
       </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Anchorite Shrine" hidden="false" id="f2e8-cc7b-df49-4819">
@@ -3863,6 +4149,34 @@ In this case the Homunculi can make up to two Ranged Attack ACTIONS (if it has 
           </conditions>
         </modifier>
       </modifiers>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="St Zita&apos;s Reliquary" hidden="true" id="f860-cded-9d42-5be0">
+          <costs>
+            <cost name="Glory Points" typeId="f3bb-a7e6-d476-f60b" value="1"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="bf41-0874-0986-42d8" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <profiles>
+            <profile name="St Zita&apos;s Reliquary" typeId="7079-589c-df69-fa7e" typeName="Battlekit" hidden="false" id="1620-a7ae-2f7a-ce40">
+              <characteristics>
+                <characteristic name="Type" typeId="3f15-74a1-4d35-3642">Equipment</characteristic>
+                <characteristic name="Range" typeId="2b32-2f45-9c06-7a77">-</characteristic>
+                <characteristic name="Keywords" typeId="5093-5528-b08f-1496">HELD</characteristic>
+                <characteristic name="Rules" typeId="4834-43a9-1c93-9062">St Zita’s Reliquary: The wearer can take a Reliquary ACTION. If they do so, take a Risky Success Roll for the model and add +1 DICE to the roll. If the roll is a Success or Critical Success, choose one enemy model within 1” from the carrier who is taken Down but does not suffer any other injuries.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="5f8f-4f9a-c53b-91e9" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <comment>Monastery</comment>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Warband Variant" hidden="false" id="8e94-2a41-fd86-1f0b">
       <constraints>
@@ -4325,6 +4639,27 @@ In one off games, 3 Completed Sagas may be bought at the listed Ducat cost as if
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                 </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Monastery of the Holy Stigmata" hidden="false" id="5f8f-4f9a-c53b-91e9">
+                  <profiles>
+                    <profile name="Remote Monastery" typeId="058c-866b-6487-ccc4" typeName="Ability" hidden="false" id="35cc-c660-4fb4-575e">
+                      <characteristics>
+                        <characteristic name="Description" typeId="2ecd-b4ff-9e78-a8e2">Cannot have Communicant, Castigator, or Ecclesiastic Prisoners. They can have 0-2 Blood Canoness instead.
+In addition, War Prophet is replaced by a Mother of the Monastery, and Trench Pilgrims are replaced by Stigmatic Novices, which can be Broken on the Wheel. </characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="More &quot;Civilized&quot; Weapons" typeId="058c-866b-6487-ccc4" typeName="Ability" hidden="false" id="bf34-3b18-289d-f844">
+                      <characteristics>
+                        <characteristic name="Description" typeId="2ecd-b4ff-9e78-a8e2">The Monastery of the Holy Stigmata does not have access to Punt Gun and Anti-Tank Hammer, instead they may purchase Sniper Rifle for 35 ducats (Limit: 2, ELITE Only) and Sin Piercer for 25 ducats (Limit: 2).
+In addition, Automatic Pistol and Misericordia have no limit, Stigmatic Nuns can carry Holy Nails, and Anchorite Shrine can carry a Sacred Reliquary.</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile name="Faith Guide the Blade" typeId="058c-866b-6487-ccc4" typeName="Ability" hidden="false" id="176c-1bfd-92e3-ad7d">
+                      <characteristics>
+                        <characteristic name="Description" typeId="2ecd-b4ff-9e78-a8e2">When at least one BLESSING MARKER is used during a Fight or Shoot ACTION, add +1 to the Roll result.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
               </selectionEntries>
               <profiles>
                 <profile name="Third Party Subfactions" typeId="7079-589c-df69-fa7e" typeName="Battlekit" hidden="false" id="9e61-bd1d-33f1-f936">
@@ -4548,6 +4883,337 @@ If two more more models are exactly the same distance and visible to the Captive
         <infoLink name="Critical" id="8929-9bdb-a01a-6427" hidden="false" type="rule" targetId="7c40-254f-6d33-854c"/>
         <infoLink name="Risky" id="3333-e50b-305b-f0a6" hidden="false" type="rule" targetId="df23-62bc-775e-fca1"/>
       </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Mother of the Monastery" hidden="true" id="7d36-cb39-afeb-b2d5">
+      <profiles>
+        <profile name="Mother of the Monastery" typeId="b3af-94f9-2e35-d1c5" typeName="Unit" hidden="false" id="71a7-58be-cdcc-904a">
+          <characteristics>
+            <characteristic name="Movement" typeId="b725-e0a4-16ae-8df2">8&quot;/Infantry</characteristic>
+            <characteristic name="Ranged" typeId="1a4f-d2cd-c405-6200">+2 Dice</characteristic>
+            <characteristic name="Melee" typeId="12e8-ff8c-c933-9eb5">+2 Dice</characteristic>
+            <characteristic name="Armour" typeId="5de9-d70e-9021-6f71">0</characteristic>
+            <characteristic name="Base" typeId="73ae-cc17-596e-0481">32mm</characteristic>
+          </characteristics>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="decrement" value="1" field="5de9-d70e-9021-6f71">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="self" childId="2bc5-1430-4c95-efe0" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="-1" field="5de9-d70e-9021-6f71">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="self" childId="5d80-7b84-5e97-9b76" shared="true" includeChildSelections="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="self" childId="ea8a-62b2-605f-6aa6" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="-2" field="5de9-d70e-9021-6f71">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="self" childId="0e4c-78a2-26bf-6e0e" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <comment>armour adjustments</comment>
+            </modifierGroup>
+          </modifierGroups>
+          <modifiers>
+            <modifier type="increment" value="1" field="12e8-ff8c-c933-9eb5">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="self" childId="2a4f-c258-5d70-a3c5" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="1a4f-d2cd-c405-6200">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="self" childId="3564-70ed-8e9e-6ee8" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Blood Must Flow" typeId="058c-866b-6487-ccc4" typeName="Ability" hidden="false" id="134d-11fc-4fc6-5110">
+          <characteristics>
+            <characteristic name="Description" typeId="2ecd-b4ff-9e78-a8e2">A Mother of the Monastery can take a Blood Must Flow ACTION. If they do so, take a Risky Success Roll for the model and add +1 DICE to the roll. If the roll is a Failure, the Mother of the Monastery’s Activation ends immediately. If the roll is a Success or a Critical Success, pick 1 model (friend or foe) that is within 12” of the Mother of the Monastery and in their Line of Sight. Place one BLOOD MARKER next to the model.    </characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Proud Stigmata" typeId="058c-866b-6487-ccc4" typeName="Ability" hidden="false" id="7537-f354-866e-0de7">
+          <characteristics>
+            <characteristic name="Description" typeId="2ecd-b4ff-9e78-a8e2">When A Mother of the Monastery activates you can place one BLOOD MARKER on any friendly Stigmatic Nun within 12” and in their Line of Sight.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="8885-7c88-9ec2-decf" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8fa1-7cbf-4e83-2828" includeChildSelections="true"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink targetId="afb7-d895-f4b4-73f3" id="78cd-09e6-f749-2618" primary="false" name="Pilgrim"/>
+        <categoryLink targetId="3de0-192c-3ec2-51be" id="9727-4a48-2479-e491" primary="true" name="Elite"/>
+        <categoryLink targetId="afb9-39f5-82d9-46ed" id="1b69-40e3-3396-8f14" primary="false" name="Leader"/>
+        <categoryLink targetId="afcc-5f24-1c7c-63c4" id="6f6f-9206-1cc8-2a94" primary="false" name="Strong"/>
+        <categoryLink targetId="914f-0020-0d97-e217" id="6e3c-1d26-2fde-c403" primary="false" name="Tough"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Weapons" hidden="false" id="3439-e35d-1aaa-0cf7" type="selectionEntryGroup" targetId="43b1-aa6a-2357-1613" sortIndex="3"/>
+        <entryLink import="true" name="Throwables" hidden="false" id="cec1-e7d7-c719-5419" type="selectionEntryGroup" targetId="70c8-b7ed-f20b-8bd6" sortIndex="4"/>
+        <entryLink import="true" name="Armour" hidden="false" id="87c8-9485-c758-f33d" type="selectionEntryGroup" targetId="664d-b970-6eef-b2d5"/>
+        <entryLink import="true" name="Equipment" hidden="false" id="1485-dad7-6010-4eb2" type="selectionEntryGroup" targetId="8a14-be13-d97b-2a39"/>
+        <entryLink import="true" name="Advancement" hidden="true" id="f2e2-aee3-63d7-4d3a" type="selectionEntryGroup" targetId="bc33-e591-8f2e-a847" collapsible="true" sortIndex="1"/>
+        <entryLink import="true" name="Exploration Upgrades" hidden="false" id="4aa2-453c-bcb0-3a67" type="selectionEntryGroup" targetId="6aaa-88b6-f64b-4776"/>
+        <entryLink import="true" name="Fireteams" hidden="false" id="283f-ac36-09c7-5b47" type="selectionEntryGroup" targetId="e18c-f0d9-1ca3-f7bb" sortIndex="2"/>
+      </entryLinks>
+      <costs>
+        <cost name="Ducats" typeId="8d43-33fd-332d-17a6" value="80"/>
+        <cost name="Glory Points" typeId="f3bb-a7e6-d476-f60b" value="0"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Leader" id="50ba-e6cb-cd8c-eae2" hidden="false" type="rule" targetId="9130-09e0-3351-8c4c"/>
+        <infoLink name="Strong" id="1d87-3b67-94a5-da64" hidden="false" type="rule" targetId="6297-d0e0-1935-5cfd"/>
+        <infoLink name="Tough" id="2a7a-9194-0231-3a7f" hidden="false" type="rule" targetId="3c75-701d-e708-1438"/>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="5f8f-4f9a-c53b-91e9" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <comment>Monastery</comment>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Blood Canoness" hidden="true" id="b764-5742-7a71-6372">
+      <profiles>
+        <profile name="Blood Canoness" typeId="b3af-94f9-2e35-d1c5" typeName="Unit" hidden="false" id="5f43-6150-8305-464f">
+          <characteristics>
+            <characteristic name="Movement" typeId="b725-e0a4-16ae-8df2">8&quot;/Infantry</characteristic>
+            <characteristic name="Ranged" typeId="1a4f-d2cd-c405-6200">+2 Dice</characteristic>
+            <characteristic name="Melee" typeId="12e8-ff8c-c933-9eb5">+2 Dice</characteristic>
+            <characteristic name="Armour" typeId="5de9-d70e-9021-6f71">0</characteristic>
+            <characteristic name="Base" typeId="73ae-cc17-596e-0481">32mm</characteristic>
+          </characteristics>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="decrement" value="1" field="5de9-d70e-9021-6f71">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="self" childId="2bc5-1430-4c95-efe0" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="-1" field="5de9-d70e-9021-6f71">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="self" childId="5d80-7b84-5e97-9b76" shared="true" includeChildSelections="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="self" childId="ea8a-62b2-605f-6aa6" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="-2" field="5de9-d70e-9021-6f71">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="self" childId="0e4c-78a2-26bf-6e0e" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <comment>armour adjustments</comment>
+            </modifierGroup>
+          </modifierGroups>
+          <modifiers>
+            <modifier type="increment" value="1" field="12e8-ff8c-c933-9eb5">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="self" childId="2a4f-c258-5d70-a3c5" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="1a4f-d2cd-c405-6200">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="self" childId="3564-70ed-8e9e-6ee8" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Guided by Blood" typeId="058c-866b-6487-ccc4" typeName="Ability" hidden="false" id="2fff-0955-e6a4-684d">
+          <characteristics>
+            <characteristic name="Description" typeId="2ecd-b4ff-9e78-a8e2">Once per activation, when a Blood Canoness inflicts at least one BLOOD MARKER to an enemy model, place 1 BLESSING MARKER next to the Blood Canoness.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Helping Hand" typeId="058c-866b-6487-ccc4" typeName="Ability" hidden="false" id="b0d0-8d47-3837-5b1c">
+          <characteristics>
+            <characteristic name="Description" typeId="2ecd-b4ff-9e78-a8e2">A Blood Canoness can take a Helping Hand ACTION. If they do so, take a Success Roll for the model and add +1 DICE to the roll. If the roll is a Success, pick 1 friendly model in their Line of Sight, remove one BLESSING MARKER next to the Blood Canoness and place one BLESSING MARKER next to the friendly model, if it is a Critical Success place two BLESSING MARKER instead. Anchorite Shrine cannot be the target of this ACTION.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Nun Cloister" typeId="058c-866b-6487-ccc4" typeName="Ability" hidden="false" id="f4f7-3c85-deb1-9b03">
+          <characteristics>
+            <characteristic name="Description" typeId="2ecd-b4ff-9e78-a8e2"> A Blood Canoness increases the limit of Stigmatic Nun by 1.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="e721-3976-b3f9-13d0" includeChildSelections="true"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink targetId="afb7-d895-f4b4-73f3" id="966f-0059-d685-08fb" primary="false" name="Pilgrim"/>
+        <categoryLink targetId="3de0-192c-3ec2-51be" id="5247-85ba-b98f-db54" primary="true" name="Elite"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Weapons" hidden="false" id="ed90-eaa6-f27b-9ace" type="selectionEntryGroup" targetId="43b1-aa6a-2357-1613" sortIndex="3"/>
+        <entryLink import="true" name="Throwables" hidden="false" id="c49e-9bdc-dab2-5424" type="selectionEntryGroup" targetId="70c8-b7ed-f20b-8bd6" sortIndex="4"/>
+        <entryLink import="true" name="Armour" hidden="false" id="8694-8e1e-aa8c-7c9f" type="selectionEntryGroup" targetId="664d-b970-6eef-b2d5"/>
+        <entryLink import="true" name="Equipment" hidden="false" id="6cde-a785-5fdf-9773" type="selectionEntryGroup" targetId="8a14-be13-d97b-2a39"/>
+        <entryLink import="true" name="Advancement" hidden="true" id="83bb-d7be-0a54-b8d5" type="selectionEntryGroup" targetId="bc33-e591-8f2e-a847" collapsible="true" sortIndex="1"/>
+        <entryLink import="true" name="Exploration Upgrades" hidden="false" id="c255-28c1-fdb3-d292" type="selectionEntryGroup" targetId="6aaa-88b6-f64b-4776"/>
+        <entryLink import="true" name="Fireteams" hidden="false" id="b5ee-a909-1f2f-6fc1" type="selectionEntryGroup" targetId="e18c-f0d9-1ca3-f7bb" sortIndex="2"/>
+      </entryLinks>
+      <costs>
+        <cost name="Ducats" typeId="8d43-33fd-332d-17a6" value="70"/>
+        <cost name="Glory Points" typeId="f3bb-a7e6-d476-f60b" value="0"/>
+      </costs>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="5f8f-4f9a-c53b-91e9" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <comment>Monastery</comment>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Stigmatic Novice" hidden="false" id="da15-58e1-7ac4-0fd6">
+      <profiles>
+        <profile name="Stigmatic Novice" typeId="b3af-94f9-2e35-d1c5" typeName="Unit" hidden="false" id="d1cd-967d-eda4-86ab">
+          <characteristics>
+            <characteristic name="Movement" typeId="b725-e0a4-16ae-8df2">6&quot;/Infantry</characteristic>
+            <characteristic name="Ranged" typeId="1a4f-d2cd-c405-6200">+0 Dice</characteristic>
+            <characteristic name="Melee" typeId="12e8-ff8c-c933-9eb5">+0 Dice</characteristic>
+            <characteristic name="Armour" typeId="5de9-d70e-9021-6f71">0</characteristic>
+            <characteristic name="Base" typeId="73ae-cc17-596e-0481">25mm</characteristic>
+          </characteristics>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="decrement" value="1" field="5de9-d70e-9021-6f71">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="self" childId="2bc5-1430-4c95-efe0" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="-1" field="5de9-d70e-9021-6f71">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="self" childId="5d80-7b84-5e97-9b76" shared="true" includeChildSelections="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="self" childId="ea8a-62b2-605f-6aa6" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="-2" field="5de9-d70e-9021-6f71">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="self" childId="0e4c-78a2-26bf-6e0e" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <comment>armour adjustments</comment>
+            </modifierGroup>
+          </modifierGroups>
+          <modifiers>
+            <modifier type="increment" value="1" field="1a4f-d2cd-c405-6200">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="self" childId="3564-70ed-8e9e-6ee8" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="12e8-ff8c-c933-9eb5">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="self" childId="2a4f-c258-5d70-a3c5" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Learn by the Example" typeId="058c-866b-6487-ccc4" typeName="Ability" hidden="false" id="9ca7-4d15-a083-4696">
+          <characteristics>
+            <characteristic name="Description" typeId="2ecd-b4ff-9e78-a8e2">When a Stigmatic Novice is making a Melee Attack, if the opponent is in melee with a Stigmatic Nun, add +1 DICE to the attack.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Blessed Stigmata" typeId="058c-866b-6487-ccc4" typeName="Ability" hidden="false" id="da54-101d-d665-3e5c">
+          <characteristics>
+            <characteristic name="Description" typeId="2ecd-b4ff-9e78-a8e2">At the start of each of their Activations, any Stigmatic Nun can remove one BLOOD MARKER (but not an INFECTION MARKER) from themselves and convert it into a BLESSING MARKER.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Worthy Sacrifice" typeId="058c-866b-6487-ccc4" typeName="Ability" hidden="false" id="912c-8620-a37f-cfea">
+          <characteristics>
+            <characteristic name="Description" typeId="2ecd-b4ff-9e78-a8e2">If you break a Stigmatic Novice on the Wheel, you can place a BLESSING MARKER next to one friendly unit (except an Anchorite Shrine) at the beginning of the battle. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="afb7-d895-f4b4-73f3" id="c491-f582-a4ea-1d55" primary="false" name="Pilgrim"/>
+        <categoryLink targetId="bd43-ddb1-262d-4489" id="1f4e-cad1-2cfb-fd0b" primary="true" name="Troop"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Throwables" hidden="false" id="f207-8db7-b27d-7420" type="selectionEntryGroup" targetId="70c8-b7ed-f20b-8bd6" sortIndex="4"/>
+        <entryLink import="true" name="Armour" hidden="false" id="ac1f-9553-038f-366f" type="selectionEntryGroup" targetId="664d-b970-6eef-b2d5"/>
+        <entryLink import="true" name="Equipment" hidden="false" id="72d1-c767-a9a1-bb32" type="selectionEntryGroup" targetId="8a14-be13-d97b-2a39"/>
+        <entryLink import="true" name="Advancement" hidden="true" id="ee23-4699-a1d9-06f2" type="selectionEntryGroup" targetId="bc33-e591-8f2e-a847" collapsible="true" sortIndex="1"/>
+        <entryLink import="true" name="Exploration Upgrades" hidden="false" id="f85a-12d7-69b8-31d0" type="selectionEntryGroup" targetId="6aaa-88b6-f64b-4776"/>
+        <entryLink import="true" name="Fireteams" hidden="false" id="3638-b357-c376-93cf" type="selectionEntryGroup" targetId="e18c-f0d9-1ca3-f7bb" sortIndex="2"/>
+        <entryLink import="true" name="Sagas" hidden="false" id="81f5-b1cc-9eed-0193" type="selectionEntryGroup" targetId="3daa-befc-e742-d733" sortIndex="1"/>
+      </entryLinks>
+      <costs>
+        <cost name="Ducats" typeId="8d43-33fd-332d-17a6" value="35"/>
+        <cost name="Glory Points" typeId="f3bb-a7e6-d476-f60b" value="0"/>
+      </costs>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapons" id="1e01-a3f3-4938-5bb1" hidden="false" sortIndex="3">
+          <entryLinks>
+            <entryLink import="true" name="Utility Hand" hidden="false" id="568e-d9c9-4ec6-7bd2" type="selectionEntryGroup" targetId="a77d-7d78-27b2-13b0" sortIndex="3"/>
+            <entryLink import="true" name="Ranged (One-Handed)" hidden="false" id="b30d-bf6b-527c-59ae" type="selectionEntryGroup" targetId="1075-a027-6dbc-b4dd" sortIndex="1">
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3a5f-3a95-6344-10d6" includeChildSelections="false"/>
+              </constraints>
+              <modifiers>
+                <modifier type="decrement" value="1" field="3a5f-3a95-6344-10d6">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="a77d-7d78-27b2-13b0" shared="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="decrement" value="1" field="3a5f-3a95-6344-10d6">
+                  <conditions>
+                    <condition type="atLeast" value="2" field="selections" scope="parent" childId="a77d-7d78-27b2-13b0" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Melee Weapons" hidden="false" id="9d80-be16-42ed-8ef3" type="selectionEntryGroup" targetId="62f4-69da-ce54-3b68" sortIndex="2"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="f292-8a2c-9093-92cf" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="add" value="Max 1 Heavy item on Non-Strong Unit" field="error">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="greaterThan" value="1" field="selections" scope="parent" childId="70c9-988d-71a7-7654" shared="true"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="model" childId="afcc-5f24-1c7c-63c4" shared="true" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+              <comment>Errors out if 2 or more Heavy on non-</comment>
+            </modifier>
+          </modifiers>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
   </selectionEntries>
   <catalogueLinks>
