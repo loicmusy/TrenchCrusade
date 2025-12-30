@@ -546,7 +546,7 @@ first BLOOD MARKER placed on the model is ignored.
             <infoLink name="Assault" id="8651-ecda-0e19-ad9c" hidden="false" type="rule" targetId="3136-7aab-4bde-9583"/>
             <infoLink name="Ignore [Modifier]" id="65a4-d080-b4d9-e1e0" hidden="false" type="rule" targetId="fd2f-4a14-7db4-8ec9"/>
             <infoLink name="Armour Piercing" id="ee16-ed5b-9f4d-a191" hidden="false" type="rule" targetId="ba7a-64b6-e87b-0ecd"/>
-            <infoLink name="Ignore Armour" id="ba34-9bb2-fa79-9a02" hidden="false" type="rule" targetId="f745-3388-e51a-0637"/>
+            <infoLink name="Shrapnel" id="ba34-9bb2-fa79-9a02" hidden="false" type="rule" targetId="200f-a7a6-f8a7-8232"/>
           </infoLinks>
           <costs>
             <cost name="Ducats" typeId="8d43-33fd-332d-17a6" value="8"/>
@@ -565,7 +565,7 @@ first BLOOD MARKER placed on the model is ignored.
                 <characteristic name="Type" typeId="3f15-74a1-4d35-3642">Grenade</characteristic>
                 <characteristic name="Range" typeId="2b32-2f45-9c06-7a77">8&quot;</characteristic>
                 <characteristic name="Keywords" typeId="5093-5528-b08f-1496">ASSAULT, ARMOUR PIERCING, IGNORE LONG RANGE</characteristic>
-                <characteristic name="Rules" typeId="4834-43a9-1c93-9062">Find the Weak Point: If the Success Roll for a Ranged Attack made with a Sacred Nail is a Critical Success, then the Injury Roll for the attack has the IGNORE ARMOUR Keyword.</characteristic>
+                <characteristic name="Rules" typeId="4834-43a9-1c93-9062">Find the Weak Point: If the bearer has a BLESSING MARKER next to them while making a Ranged Attack made with a Sacred Nail, it gains SHRAPNEL. </characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1132,6 +1132,13 @@ first BLOOD MARKER placed on the model is ignored.
             <infoLink name="Flamethrower" id="3a70-0322-c41e-d36f" hidden="false" type="rule" targetId="78ca-3b42-f65a-3db6"/>
             <infoLink name="Ignore Armour" id="8d83-2044-48e1-38ac" hidden="false" type="rule" targetId="f745-3388-e51a-0637"/>
           </infoLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="5f8f-4f9a-c53b-91e9" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Punt Gun" hidden="false" id="1805-1ff3-cb28-85bd" sortIndex="4">
           <costs>
@@ -1602,9 +1609,14 @@ first BLOOD MARKER placed on the model is ignored.
           </profiles>
           <modifiers>
             <modifier type="set" value="false" field="hidden">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="roster" childId="5f8f-4f9a-c53b-91e9" shared="true" includeChildSelections="true" includeChildForces="true"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="5f8f-4f9a-c53b-91e9" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="model" childId="3249-993c-9f42-06ad" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <comment>Monastery</comment>
@@ -3419,11 +3431,25 @@ In this case the Homunculi can make up to two Ranged Attack ACTIONS (if it has 
                   <conditions>
                     <condition type="atLeast" value="1" field="selections" scope="roster" childId="52bc-6b21-136a-608d" shared="true" includeChildSelections="true"/>
                     <condition type="atLeast" value="1" field="selections" scope="self" childId="b32b-6d55-9163-8486" shared="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="5f8f-4f9a-c53b-91e9" shared="true" includeChildSelections="true" includeChildForces="true"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
           </modifiers>
+        </profile>
+        <profile name="Keeper of the Lore" typeId="058c-866b-6487-ccc4" typeName="Ability" hidden="true" id="b7c3-8344-55ca-fd2e">
+          <characteristics>
+            <characteristic name="Description" typeId="2ecd-b4ff-9e78-a8e2">Once per activation, choose a friendly within 6” from the Trench Archivist and remove a BLESSING MARKER from next to them, then choose another friendly model within 6” from the Trench Archivist and place a BLESSING MARKER next to them.</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="5f8f-4f9a-c53b-91e9" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <comment>Monastery</comment>
         </profile>
       </profiles>
       <categoryLinks>
@@ -3444,11 +3470,6 @@ In this case the Homunculi can make up to two Ranged Attack ACTIONS (if it has 
         <modifier type="add" value="afcc-5f24-1c7c-63c4" field="category">
           <conditions>
             <condition type="atLeast" value="1" field="selections" scope="self" childId="6082-859c-8347-2a94" shared="true" includeChildSelections="false"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" value="true" field="hidden">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="5f8f-4f9a-c53b-91e9" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -3514,6 +3535,13 @@ In this case the Homunculi can make up to two Ranged Attack ACTIONS (if it has 
               </modifiers>
             </selectionEntry>
           </selectionEntries>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="5f8f-4f9a-c53b-91e9" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <modifierGroups>
@@ -3525,6 +3553,16 @@ In this case the Homunculi can make up to two Ranged Attack ACTIONS (if it has 
             <modifier type="set" value="Martyr-Penitent" field="name"/>
             <modifier type="replace" value="+1 DICE" field="12e8-ff8c-c933-9eb5" affects="profiles.Unit"/>
           </modifiers>
+        </modifierGroup>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="Trench Archivist" field="name"/>
+            <modifier type="set" value="Trench Archivist" field="name" affects="profiles.Unit"/>
+          </modifiers>
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="5f8f-4f9a-c53b-91e9" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+          <comment>Monastery</comment>
         </modifierGroup>
       </modifierGroups>
     </selectionEntry>
@@ -3771,7 +3809,7 @@ In this case the Homunculi can make up to two Ranged Attack ACTIONS (if it has 
             <conditionGroup type="or">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="roster" childId="65bd-e9b5-eea8-5f65" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                <condition type="atLeast" value="1" field="selections" scope="roster" childId="7d36-cb39-afeb-b2d5" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="5f8f-4f9a-c53b-91e9" shared="true" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -3877,7 +3915,7 @@ In this case the Homunculi can make up to two Ranged Attack ACTIONS (if it has 
         </modifier>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="7d36-cb39-afeb-b2d5" shared="true" includeChildSelections="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="5f8f-4f9a-c53b-91e9" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -4643,13 +4681,13 @@ In one off games, 3 Completed Sagas may be bought at the listed Ducat cost as if
                   <profiles>
                     <profile name="Remote Monastery" typeId="058c-866b-6487-ccc4" typeName="Ability" hidden="false" id="35cc-c660-4fb4-575e">
                       <characteristics>
-                        <characteristic name="Description" typeId="2ecd-b4ff-9e78-a8e2">Cannot have Communicant, Castigator, or Ecclesiastic Prisoners. They can have 0-2 Blood Canoness instead.
-In addition, War Prophet is replaced by a Mother of the Monastery, and Trench Pilgrims are replaced by Stigmatic Novices, which can be Broken on the Wheel.</characteristic>
+                        <characteristic name="Description" typeId="2ecd-b4ff-9e78-a8e2">Cannot have Communicant, Castigator, or Ecclesiastic Prisoners. They can have 0-2 Blood Canoness instead and any number of Stigmatic Novices, which can be broken on the Wheel. 
+In addition, War Prophet is replaced by a Mother of the Monastery, and Trench Pilgrims are replaced by Trench Archivists, which cannot be Broken on the Wheel. </characteristic>
                       </characteristics>
                     </profile>
                     <profile name="More &quot;Civilized&quot; Weapons" typeId="058c-866b-6487-ccc4" typeName="Ability" hidden="false" id="bf34-3b18-289d-f844">
                       <characteristics>
-                        <characteristic name="Description" typeId="2ecd-b4ff-9e78-a8e2">The Monastery of the Holy Stigmata does not have access to Punt Gun and Anti-Tank Hammer, instead they may purchase Sniper Rifle for 35 ducats (Limit: 2, ELITE Only) and Sin Piercer for 25 ducats (Limit: 2).
+                        <characteristic name="Description" typeId="2ecd-b4ff-9e78-a8e2">The Monastery of the Holy Stigmata does not have access to Flamethrower, Punt Gun and Anti-Tank Hammer, instead they may purchase Sniper Rifle for 35 ducats (Limit: 2, ELITE Only) and Sin Piercer for 25 ducats (Limit: 2).
 In addition, Automatic Pistol and Misericordia have no limit, Stigmatic Nuns can carry Holy Nails, and Anchorite Shrine can carry a Sacred Reliquary.</characteristic>
                       </characteristics>
                     </profile>
