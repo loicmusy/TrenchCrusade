@@ -5161,6 +5161,11 @@ This ability cannot be used against attacks that have the BLAST Keyword.</charac
             <characteristic name="Rules" typeId="87f0-637b-734a-22eb"/>
           </characteristics>
         </profile>
+        <profile name="Plague-Ridden Flesh" typeId="058c-866b-6487-ccc4" typeName="Ability" hidden="false" id="964a-af5c-29e6-8aac">
+          <characteristics>
+            <characteristic name="Description" typeId="2ecd-b4ff-9e78-a8e2">Add -2 INJURY DICE to Injury Rolls for a Gregory Gula unless the attack as the FIRE Keyword.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <entryLinks>
         <entryLink import="true" name="Advancement" hidden="true" id="0ca5-2259-63b6-6d4b" type="selectionEntryGroup" targetId="bc33-e591-8f2e-a847" collapsible="true" sortIndex="1"/>
