@@ -210,6 +210,9 @@ MARKERS caused by the Keyword FIRE.</description>
     <rule name="Fumble" id="16df-9be5-6050-8111" hidden="false">
       <description>If the Sucess Roll for an attack made with a Weapon that has the FUMBLE Keyword is 2 or less, then the attacking model fumbles the attack and hits themselves instead of the target. Treat the attack as a Successful attack made by the Weapon that targeted the attacking model.</description>
     </rule>
+    <rule name="Mercenary" id="f4bf-8d31-f7b3-28e3" hidden="false">
+      <description>This model is a Mercenary and can be recruited by various Factions. Mercenaries do not benefit from Faction special rules that refer to &quot;model in a [Faction] Warband&quot;, such as New Antioch Concentrated Attack rule, including Warband Variant special rules, such as Éire Rangers Light Infantry rule. They do count as friendly models for the purpose of other rules used by their Warband, such as the Kingdom of Alba Assault Detachment Bagpipe rules, unless stated otherwise. In a campaign, this includes counting towards Threshold Limits and Field Strength, completing Glorious Deeds, rolling on the Trauma Table for them if they are ELITE and taken Out of Action, being Promoted and gaining Experience Points, and so on. A Mercenaries&apos; Battlekit cannot be removed or lost over the course of the campaign for any reason, and they cannot have any other Battlekit. Note that the Injury Modifier for any Armour they have has been included in the model&apos;s Profile.</description>
+    </rule>
   </sharedRules>
   <publications>
     <publication name="Playtest Rules 1.5" id="c658-4a10-e1fe-befc" hidden="false" shortName="PT1.5" publisherUrl="https://static1.squarespace.com/static/637c0a5adafeb04f70309b99/t/6738d89f383e092b140a808f/1731778725409/Trench+Crusade+Rules+v1.5+%283%29.pdf"/>
@@ -1005,8 +1008,8 @@ Shovel: A model equipped with a Shovel that starts the game on Open terrain has 
       <characteristics>
         <characteristic name="Type" typeId="f90e-171a-4ca6-3845">1-handed</characteristic>
         <characteristic name="Range" typeId="31a7-b5e8-41dc-5fd1">Melee</characteristic>
-        <characteristic name="Keywords" typeId="8cd6-8018-f2da-5ede">CRITICAL</characteristic>
-        <characteristic name="Rules" typeId="87f0-637b-734a-22eb">Wrath of God: After making the Injury Roll for a Gavel of Justice, place 1 extra BLOOD MARKER next to the target model (even if the Injury Roll has No Effect). If the target has the BLACK GRAIL, DEMONIC, or HERETIC Keyword, place 2 BLOOD MARKERS next to it instead of 1.</characteristic>
+        <characteristic name="Keywords" typeId="8cd6-8018-f2da-5ede">CRITICAL, FIRE</characteristic>
+        <characteristic name="Rules" typeId="87f0-637b-734a-22eb"/>
       </characteristics>
     </profile>
     <profile name="Gas Grenade Launcher" typeId="090c-b12e-592a-9874" typeName="Weapon" hidden="false" id="fb1b-45a3-5dd0-bba1" publicationId="c658-4a10-e1fe-befc" page="27">
