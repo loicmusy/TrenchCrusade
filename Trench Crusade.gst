@@ -970,12 +970,12 @@ Deadly Embrace: Enemy models cannot retreat if they are within 1&quot; of a mode
         <characteristic name="Rules" typeId="4834-43a9-1c93-9062">Protection From Harm: Add- 1 INJURY DICE to Injury Rolls for attacks made by Weapons with the FIRE or GAS Keywords that target a model that has Alchemist Armour, even if the attacking weapon has the IGNORE ARMOUR Keyword.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Alchemical Ammunition" typeId="7079-589c-df69-fa7e" typeName="Battlekit" hidden="false" id="c296-2021-0947-c6c7">
+    <profile name="Corrosive Ammunition" typeId="7079-589c-df69-fa7e" typeName="Battlekit" hidden="false" id="c296-2021-0947-c6c7">
       <characteristics>
         <characteristic name="Type" typeId="3f15-74a1-4d35-3642">Equipment</characteristic>
         <characteristic name="Range" typeId="2b32-2f45-9c06-7a77">-</characteristic>
-        <characteristic name="Keywords" typeId="5093-5528-b08f-1496">AMMUNITION (+1 DICE)</characteristic>
-        <characteristic name="Rules" typeId="4834-43a9-1c93-9062">Alchemical Ammunition can only be used with an Alaybozan, Halberd-Gun, Jezzail or Siege Jezzail (even though the Alaybozan has the SHRAPNEL Keyword). In a campaign, you cannot reallocate Alchemical Ammunition to another model.</characteristic>
+        <characteristic name="Keywords" typeId="5093-5528-b08f-1496">AMMUNITION (ARMOUR PIERCING)</characteristic>
+        <characteristic name="Rules" typeId="4834-43a9-1c93-9062">Volatile Concoction: Corrosive Ammunition an only be used with an Alaybozan, Halberd-Gun, Jezzail, or Siege Jezzail (even though the Alaybozan has the SHRAPNEL Keyword). In a campaign, you cannot reallocate Corrosive Ammunition to another model.</characteristic>
       </characteristics>
     </profile>
     <profile name="Cloak of Alamut" typeId="7079-589c-df69-fa7e" typeName="Battlekit" hidden="false" id="fc84-ca32-2672-c684">
@@ -1101,6 +1101,14 @@ Mutation: Once this Battlekit has been equipped, it cannot be removed or lost ov
         <characteristic name="Range" typeId="2b32-2f45-9c06-7a77">-</characteristic>
         <characteristic name="Keywords" typeId="5093-5528-b08f-1496">-</characteristic>
         <characteristic name="Rules" typeId="4834-43a9-1c93-9062">Restrained: Add +1 DICE to rolls made for a Ranged Attack made by a Yoke Fiend that has a Restraining Muzzle. In addition, the Hateful ability does not apply to a Yoke Fiend that has a Restraining Muzzle.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Alchemical Ammunition" typeId="7079-589c-df69-fa7e" typeName="Battlekit" hidden="false" id="9add-0113-4685-098f">
+      <characteristics>
+        <characteristic name="Type" typeId="3f15-74a1-4d35-3642">Equipment</characteristic>
+        <characteristic name="Range" typeId="2b32-2f45-9c06-7a77">-</characteristic>
+        <characteristic name="Keywords" typeId="5093-5528-b08f-1496">AMMUNITION (+1 DICE)</characteristic>
+        <characteristic name="Rules" typeId="4834-43a9-1c93-9062">Guiding Path: Alchemical Ammunition can only be used with an Alaybozan, Halberd-Gun, Jezzail or Siege Jezzail (even though the Alaybozan has the SHRAPNEL Keyword). In a campaign, you cannot reallocate Alchemical Ammunition to anothere model</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

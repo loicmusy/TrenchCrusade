@@ -826,7 +826,7 @@ Can only be used with Jezzails, Sniper rifles, Halberd-Guns and Siege Jezzails.<
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fe0c-193c-db3f-46af" includeChildSelections="true"/>
               </constraints>
               <infoLinks>
-                <infoLink name="Alchemical Ammunition" id="40a3-e74d-fc72-7d9c" hidden="false" type="profile" targetId="c296-2021-0947-c6c7"/>
+                <infoLink name="Alchemical Ammunition" id="40a3-e74d-fc72-7d9c" hidden="false" type="profile" targetId="9add-0113-4685-098f"/>
                 <infoLink name="Ammunition (Keyword)" id="0935-8bb0-c97e-2c30" hidden="false" type="rule" targetId="9a05-7b7b-6023-5523"/>
               </infoLinks>
               <modifiers>
@@ -893,6 +893,42 @@ Can only be used with Jezzails, Sniper rifles, Halberd-Guns and Siege Jezzails.<
                           </conditionGroups>
                         </conditionGroup>
                       </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Corrosive Ammunition" hidden="false" id="b488-3687-c999-2610" sortIndex="1">
+              <costs>
+                <cost name="Ducats" typeId="8d43-33fd-332d-17a6" value="10"/>
+                <cost name="Glory Points" typeId="f3bb-a7e6-d476-f60b" value="0"/>
+              </costs>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7f9c-d53e-e39a-5f08" includeChildSelections="true"/>
+                <constraint type="max" value="5" field="selections" scope="roster" shared="true" id="54bc-5e65-01c4-329e" includeChildSelections="true" includeChildForces="true"/>
+              </constraints>
+              <infoLinks>
+                <infoLink name="Alchemical Ammunition" id="27ee-8099-3983-f37f" hidden="false" type="profile" targetId="c296-2021-0947-c6c7"/>
+                <infoLink name="Ammunition (Keyword)" id="6159-9149-5767-e4ff" hidden="false" type="rule" targetId="9a05-7b7b-6023-5523"/>
+              </infoLinks>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <comment>Nomads of Al-Badia</comment>
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="roster" childId="7091-3f28-368f-eace" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="parent" childId="884b-2936-9415-af95" shared="true" childName="Halberd-Gun"/>
+                        <condition type="lessThan" value="1" field="selections" scope="parent" childId="2b27-3653-e972-8d5a" shared="true"/>
+                        <condition type="lessThan" value="1" field="selections" scope="parent" childId="ab06-4025-36da-4e62" shared="true"/>
+                        <condition type="lessThan" value="1" field="selections" scope="parent" childId="4f0f-a0cf-e8e8-b332" shared="true"/>
+                        <condition type="lessThan" value="1" field="selections" scope="parent" childId="d039-5982-7011-334e" shared="true"/>
+                        <condition type="lessThan" value="1" field="selections" scope="parent" childId="f5fe-26c3-c542-2bcb" shared="true"/>
+                      </conditions>
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
@@ -1604,6 +1640,7 @@ Once a Ranged Attack has been made with this weapon, It cannot be used again.</c
                 <entryLink import="true" name="Scrap Shot (Loaded)" hidden="false" id="033d-0c09-130a-5a3c" type="selectionEntry" targetId="3df0-a6cf-2aad-121c"/>
                 <entryLink import="true" name="Shayṭānic Shard Ammuntion (Loaded)" hidden="false" id="4c1e-12a2-885f-1680" type="selectionEntry" targetId="d5f6-0471-e4b8-8670"/>
                 <entryLink import="true" name="Sparkpowder Ammuntion (Loaded)" hidden="false" id="3898-eead-9863-b470" type="selectionEntry" targetId="6298-be97-6c32-1dc2"/>
+                <entryLink import="true" name="Corosive Ammuntion (Loaded)" hidden="false" id="5101-84d3-10b3-6b21" type="selectionEntry" targetId="782c-2ed3-305d-d6ca"/>
               </entryLinks>
               <infoLinks>
                 <infoLink name="Halberd-Gun" id="d6c4-f507-8218-466c" hidden="false" type="profile" targetId="c403-4b36-5fd6-5c95"/>
@@ -1970,6 +2007,7 @@ Once a Ranged Attack has been made with this weapon, It cannot be used again.</c
             <entryLink import="true" name="Heavy Bore Ammuntion (Loaded)" hidden="false" id="e3d6-d960-46e9-61b0" type="selectionEntry" targetId="a0c5-9830-2779-89ef"/>
             <entryLink import="true" name="Shayṭānic Shard Ammuntion (Loaded)" hidden="false" id="eb90-3164-075e-82d5" type="selectionEntry" targetId="d5f6-0471-e4b8-8670"/>
             <entryLink import="true" name="Scrap Shot (Loaded)" hidden="false" id="a4eb-d1c4-dfdc-b365" type="selectionEntry" targetId="3df0-a6cf-2aad-121c"/>
+            <entryLink import="true" name="Corosive Ammuntion (Loaded)" hidden="false" id="bddb-d649-4b40-3897" type="selectionEntry" targetId="782c-2ed3-305d-d6ca"/>
           </entryLinks>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -2011,6 +2049,7 @@ Once a Ranged Attack has been made with this weapon, It cannot be used again.</c
             <entryLink import="true" name="Sparkpowder Ammuntion (Loaded)" hidden="false" id="0f8a-c442-22e6-69bb" type="selectionEntry" targetId="6298-be97-6c32-1dc2"/>
             <entryLink import="true" name="Shayṭānic Shard Ammuntion (Loaded)" hidden="false" id="7e36-7bcd-e79a-a19a" type="selectionEntry" targetId="d5f6-0471-e4b8-8670"/>
             <entryLink import="true" name="Scrap Shot (Loaded)" hidden="false" id="bbb7-742b-5dec-1297" type="selectionEntry" targetId="3df0-a6cf-2aad-121c"/>
+            <entryLink import="true" name="Corosive Ammuntion (Loaded)" hidden="false" id="e127-0de2-3a9d-24bf" type="selectionEntry" targetId="782c-2ed3-305d-d6ca"/>
           </entryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Sniper Rifle" hidden="true" id="f21b-e8c4-e383-5760" sortIndex="9">
@@ -2526,6 +2565,7 @@ Once a Ranged Attack has been made with this weapon, It cannot be used again.</c
                 <entryLink import="true" name="Sparkpowder Ammuntion (Loaded)" hidden="false" id="170c-b1a9-3155-4795" type="selectionEntry" targetId="6298-be97-6c32-1dc2"/>
                 <entryLink import="true" name="Heavy Bore Ammuntion (Loaded)" hidden="false" id="0f9f-3d49-3d11-626f" type="selectionEntry" targetId="a0c5-9830-2779-89ef"/>
                 <entryLink import="true" name="Scrap Shot (Loaded)" hidden="false" id="cfd0-7da4-45b2-e84d" type="selectionEntry" targetId="3df0-a6cf-2aad-121c"/>
+                <entryLink import="true" name="Corosive Ammuntion (Loaded)" hidden="false" id="c90e-0d66-54a4-f745" type="selectionEntry" targetId="782c-2ed3-305d-d6ca"/>
               </entryLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Automatic Shotgun" hidden="true" id="ae0f-da0b-a1c2-2c2e" collective="false" sortIndex="4">
@@ -4733,6 +4773,30 @@ Hypnotic Eyes Alchemical Formulas.</characteristic>
         <modifier type="replace" field="87f0-637b-734a-22eb" affects="profiles.Weapon" scope="parent" join="
 " arg="-"/>
       </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Corosive Ammuntion (Loaded)" hidden="true" id="782c-2ed3-305d-d6ca">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="self" shared="true" id="8b28-d180-b8fe-3027"/>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="17db-3d3b-f62a-224f" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="model" childId="8a1e-a662-247a-2c2b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" value="1" field="17db-3d3b-f62a-224f">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="roster" childId="8a1e-a662-247a-2c2b" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+          </repeats>
+        </modifier>
+        <modifier type="append" value="ARMOUR PIERCING
+" field="87f0-637b-734a-22eb" affects="profiles.Weapon" scope="parent" join="
+"/>
+      </modifiers>
+      <infoLinks>
+        <infoLink name="Armour Piercing" id="c381-86b9-8c7e-437c" hidden="false" type="rule" targetId="ba7a-64b6-e87b-0ecd"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <forceEntries>
