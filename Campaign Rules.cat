@@ -4133,15 +4133,16 @@ Action Rifle, Assault Rifle etc).
               <characteristics>
                 <characteristic name="Type" typeId="f90e-171a-4ca6-3845">GRENADE</characteristic>
                 <characteristic name="Range" typeId="31a7-b5e8-41dc-5fd1">8&quot;</characteristic>
-                <characteristic name="Keywords" typeId="8cd6-8018-f2da-5ede">ASSAULT, BLAST 2&quot;, IGNORE COVER, IGNORE LONG RANGE, SHRAPNEL</characteristic>
+                <characteristic name="Keywords" typeId="8cd6-8018-f2da-5ede">ASSAULT, BLAST 2&quot;, FUMBLE, IGNORE COVER, IGNORE LONG RANGE, SHRAPNEL</characteristic>
                 <characteristic name="Rules" typeId="87f0-637b-734a-22eb">Spirit of Vengeance: Add +1 INJURY DICE to rolls against models that have the BLACK GRAIL or DEMONIC Keyword</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink name="Blast" id="33f1-a96f-7d1f-f09f" hidden="false" type="rule" targetId="263d-6520-5629-c027"/>
-            <infoLink name="Shrapnel" id="17f8-384f-6661-bc53" hidden="false" type="rule" targetId="200f-a7a6-f8a7-8232"/>
+            <infoLink name="Fumble" id="17f8-384f-6661-bc53" hidden="false" type="rule" targetId="16df-9be5-6050-8111"/>
             <infoLink name="Assault" id="9c39-7d81-bb1c-eb4c" hidden="false" type="rule" targetId="3136-7aab-4bde-9583"/>
+            <infoLink name="Shrapnel" id="6505-7ec1-9b63-9b99" hidden="false" type="rule" targetId="200f-a7a6-f8a7-8232"/>
           </infoLinks>
           <constraints>
             <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="4b70-c756-0529-0994" includeChildSelections="true"/>
@@ -4299,7 +4300,7 @@ Action Rifle, Assault Rifle etc).
               <characteristics>
                 <characteristic name="Type" typeId="f90e-171a-4ca6-3845">GRENADE</characteristic>
                 <characteristic name="Range" typeId="31a7-b5e8-41dc-5fd1">8&quot;</characteristic>
-                <characteristic name="Keywords" typeId="8cd6-8018-f2da-5ede">ASSAULT, BLAST 3&quot;, IGNORE ARMOUR, IGNORE COVER, SCATTER</characteristic>
+                <characteristic name="Keywords" typeId="8cd6-8018-f2da-5ede">ASSAULT, BLAST 3&quot;, FUMBLE, IGNORE ARMOUR, IGNORE COVER, SCATTER</characteristic>
                 <characteristic name="Rules" typeId="87f0-637b-734a-22eb">Deadly Light: Double the number of BLOOD MARKERS placed next to a model by an Injury Roll for an attack made with a Demonic Aura Grenade. In addition, an Injury Roll is made for all models that are within 3&quot; of the target point when the Demonic Aura Grenade explodes, even if interposing terrain blocks the line of sight.</characteristic>
               </characteristics>
             </profile>
@@ -4310,6 +4311,7 @@ Action Rifle, Assault Rifle etc).
             <infoLink name="Ignore Armour" id="13d4-5fc4-7b80-3465" hidden="false" type="rule" targetId="f745-3388-e51a-0637"/>
             <infoLink name="Scatter" id="09dc-31dc-c3ef-a5b2" hidden="false" type="rule" targetId="9ee3-1276-01cc-fefb"/>
             <infoLink name="Assault" id="29f3-bfde-1426-d4b4" hidden="false" type="rule" targetId="3136-7aab-4bde-9583"/>
+            <infoLink name="Fumble" id="733f-5744-ab88-9906" hidden="false" type="rule" targetId="16df-9be5-6050-8111"/>
           </infoLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4875-7b63-8849-8ba7" includeChildSelections="true"/>

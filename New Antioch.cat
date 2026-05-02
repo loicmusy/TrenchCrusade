@@ -586,7 +586,7 @@
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Incendiary Grenades" hidden="false" id="f3ac-a787-de81-9bc9">
           <costs>
-            <cost name="Ducats" typeId="8d43-33fd-332d-17a6" value="15"/>
+            <cost name="Ducats" typeId="8d43-33fd-332d-17a6" value="10"/>
             <cost name="Glory Points" typeId="f3bb-a7e6-d476-f60b" value="0"/>
           </costs>
           <infoLinks>
@@ -4972,8 +4972,8 @@ In this case the Homunculi can make up to two Ranged Attack ACTIONS (if it has 
         <profile name="Engineer" typeId="b3af-94f9-2e35-d1c5" typeName="Unit" hidden="false" id="7b50-3c72-1794-64bb">
           <characteristics>
             <characteristic name="Movement" typeId="b725-e0a4-16ae-8df2">6&quot;/Infantry</characteristic>
-            <characteristic name="Ranged" typeId="1a4f-d2cd-c405-6200">+0 Dice</characteristic>
-            <characteristic name="Melee" typeId="12e8-ff8c-c933-9eb5">+1 Dice</characteristic>
+            <characteristic name="Ranged" typeId="1a4f-d2cd-c405-6200">+1 Dice</characteristic>
+            <characteristic name="Melee" typeId="12e8-ff8c-c933-9eb5">+0 Dice</characteristic>
             <characteristic name="Armour" typeId="5de9-d70e-9021-6f71">-2</characteristic>
             <characteristic name="Base" typeId="73ae-cc17-596e-0481">25mm</characteristic>
           </characteristics>
@@ -5881,7 +5881,7 @@ It can only include 1 Mechanized Heavy Infantry model but can have up to 4 Comb
                 </profile>
                 <profile name="Masters of the Grenade" typeId="058c-866b-6487-ccc4" typeName="Ability" hidden="false" id="1708-d9eb-00c1-f415">
                   <characteristics>
-                    <characteristic name="Description" typeId="2ecd-b4ff-9e78-a8e2">Add 4&quot; to the Range of all Grenades used by models from a Stosstruppen of the Free State of Prussia Warband.</characteristic>
+                    <characteristic name="Description" typeId="2ecd-b4ff-9e78-a8e2">Add 4&quot; to the Range of all Grenades used by models from a Stosstruppen of the Free State of Prussia Warband. However, if the range to the target is more than 8&quot;, add -1 DICE to the Sucess Roll for the attack.</characteristic>
                   </characteristics>
                 </profile>
                 <profile name="Rapid Assault" typeId="058c-866b-6487-ccc4" typeName="Ability" hidden="false" id="60fa-5a76-8da3-9317">

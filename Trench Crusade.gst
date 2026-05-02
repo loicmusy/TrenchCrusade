@@ -207,6 +207,9 @@ MARKERS caused by the Keyword FIRE.</description>
     <rule name="Deployable" id="c458-a331-5541-0ad9" hidden="false">
       <description>Battlekit that is represented by a model or terrain piece that can be set up during the game.</description>
     </rule>
+    <rule name="Fumble" id="16df-9be5-6050-8111" hidden="false">
+      <description>If the Sucess Roll for an attack made with a Weapon that has the FUMBLE Keyword is 2 or less, then the attacking model fumbles the attack and hits themselves instead of the target. Treat the attack as a Successful attack made by the Weapon that targeted the attacking model.</description>
+    </rule>
   </sharedRules>
   <publications>
     <publication name="Playtest Rules 1.5" id="c658-4a10-e1fe-befc" hidden="false" shortName="PT1.5" publisherUrl="https://static1.squarespace.com/static/637c0a5adafeb04f70309b99/t/6738d89f383e092b140a808f/1731778725409/Trench+Crusade+Rules+v1.5+%283%29.pdf"/>
@@ -328,7 +331,7 @@ MARKERS caused by the Keyword FIRE.</description>
       <characteristics>
         <characteristic name="Type" typeId="f90e-171a-4ca6-3845">GRENADE</characteristic>
         <characteristic name="Range" typeId="31a7-b5e8-41dc-5fd1">8&quot;</characteristic>
-        <characteristic name="Keywords" typeId="8cd6-8018-f2da-5ede">ASSAULT, FIRE, IGNORE COVER, IGNORE LONG RANGE</characteristic>
+        <characteristic name="Keywords" typeId="8cd6-8018-f2da-5ede">ASSAULT, FIRE, FUMBLE, IGNORE COVER, IGNORE LONG RANGE</characteristic>
         <characteristic name="Rules" typeId="87f0-637b-734a-22eb">Liquid Fire: If the Success Roll for a Ranged Attack made with an Incendiary Grenade is a Critical Success then the Injury Roll for the attack has the IGNORE ARMOUR Keyword.</characteristic>
       </characteristics>
     </profile>
@@ -336,7 +339,7 @@ MARKERS caused by the Keyword FIRE.</description>
       <characteristics>
         <characteristic name="Type" typeId="f90e-171a-4ca6-3845">GRENADE</characteristic>
         <characteristic name="Range" typeId="31a7-b5e8-41dc-5fd1">8&quot;</characteristic>
-        <characteristic name="Keywords" typeId="8cd6-8018-f2da-5ede">-1 INJURY DICE, ASSAULT, BLAST 3&quot;, GAS, IGNORE ARMOUR, IGNORE COVER, IGNORE LONG RANGE</characteristic>
+        <characteristic name="Keywords" typeId="8cd6-8018-f2da-5ede">-1 INJURY DICE, ASSAULT, BLAST 3&quot;, FUMBLE, GAS, IGNORE ARMOUR, IGNORE COVER, IGNORE LONG RANGE</characteristic>
         <characteristic name="Rules" typeId="87f0-637b-734a-22eb"/>
       </characteristics>
     </profile>
@@ -352,7 +355,7 @@ MARKERS caused by the Keyword FIRE.</description>
       <characteristics>
         <characteristic name="Type" typeId="f90e-171a-4ca6-3845">Grenade</characteristic>
         <characteristic name="Range" typeId="31a7-b5e8-41dc-5fd1">6&quot;</characteristic>
-        <characteristic name="Keywords" typeId="8cd6-8018-f2da-5ede">-1 INJURY DICE, ASSAULT, FIRE, IGNORE COVER, IGNORE LONG RANGE</characteristic>
+        <characteristic name="Keywords" typeId="8cd6-8018-f2da-5ede">-1 INJURY DICE, ASSAULT, FIRE, FUMBLE, IGNORE COVER, IGNORE LONG RANGE</characteristic>
         <characteristic name="Rules" typeId="87f0-637b-734a-22eb">Liquid Fire: If the Success Roll for a Ranged Attack made with a Molotov Cocktail is a Critical Success then the Injury Roll for the attack has the IGNORE ARMOUR Keyword.</characteristic>
       </characteristics>
     </profile>
@@ -360,7 +363,7 @@ MARKERS caused by the Keyword FIRE.</description>
       <characteristics>
         <characteristic name="Type" typeId="f90e-171a-4ca6-3845">GRENADE</characteristic>
         <characteristic name="Range" typeId="31a7-b5e8-41dc-5fd1">8&quot;</characteristic>
-        <characteristic name="Keywords" typeId="8cd6-8018-f2da-5ede">ASSAULT, BLAST 2&quot;, IGNORE COVER, IGNORE LONG RANGE, SHRAPNEL</characteristic>
+        <characteristic name="Keywords" typeId="8cd6-8018-f2da-5ede">ASSAULT, BLAST 2&quot;, FUMBLE, IGNORE COVER, IGNORE LONG RANGE, SHRAPNEL</characteristic>
         <characteristic name="Rules" typeId="87f0-637b-734a-22eb">-</characteristic>
       </characteristics>
     </profile>
@@ -792,7 +795,7 @@ Deadly Embrace: Enemy models cannot retreat if they are within 1&quot; of a mode
       <characteristics>
         <characteristic name="Type" typeId="f90e-171a-4ca6-3845">Grenades</characteristic>
         <characteristic name="Range" typeId="31a7-b5e8-41dc-5fd1">8&quot;</characteristic>
-        <characteristic name="Keywords" typeId="8cd6-8018-f2da-5ede">ASSAULT, IGNORE COVER, IGNORE LONG RANGE</characteristic>
+        <characteristic name="Keywords" typeId="8cd6-8018-f2da-5ede">ASSAULT, FUMBLE, IGNORE COVER, IGNORE LONG RANGE</characteristic>
         <characteristic name="Rules" typeId="87f0-637b-734a-22eb">Terrifying Hallucinations: If a Parasite Grenade hits a target, after resolving the Injury Roll, you can move the target model 3&quot;. The move must be in a straight line, but can be in any direction, and can be used to make the model move within 1&quot; of an enemy, make a retreat move, Climb, Jump, or Jump Down. The model cannot make a Diving Charge and does not count as charging if it finishes the move within 1&quot; of an enemy model.</characteristic>
       </characteristics>
     </profile>

@@ -101,6 +101,7 @@
             <infoLink name="Parasite Grenades" id="f779-5a2a-25fc-356e" hidden="false" type="profile" targetId="ddce-6e00-e451-7281"/>
             <infoLink name="Assault" id="f312-181f-617b-3a95" hidden="false" type="rule" targetId="3136-7aab-4bde-9583"/>
             <infoLink name="Ignore [Modifier]" id="2860-cdb6-3d43-c73d" hidden="false" type="rule" targetId="fd2f-4a14-7db4-8ec9"/>
+            <infoLink name="Fumble" id="44cc-5eb3-c61d-d60f" hidden="false" type="rule" targetId="16df-9be5-6050-8111"/>
           </infoLinks>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="37e8-fbe9-0123-abe7" includeChildSelections="false"/>
