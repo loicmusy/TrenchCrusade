@@ -918,7 +918,7 @@ Deadly Embrace: Enemy models cannot retreat if they are within 1&quot; of a mode
       <characteristics>
         <characteristic name="Type" typeId="f90e-171a-4ca6-3845">2-Handed</characteristic>
         <characteristic name="Range" typeId="31a7-b5e8-41dc-5fd1">Melee/24&quot;</characteristic>
-        <characteristic name="Keywords" typeId="8cd6-8018-f2da-5ede">ASSAULT, BLOCK, CUMBERSOME</characteristic>
+        <characteristic name="Keywords" typeId="8cd6-8018-f2da-5ede">+1 INJURY DICE, ASSAULT, BLOCK, CUMBERSOME, HEAVY</characteristic>
         <characteristic name="Rules" typeId="87f0-637b-734a-22eb">-</characteristic>
       </characteristics>
     </profile>
@@ -926,15 +926,15 @@ Deadly Embrace: Enemy models cannot retreat if they are within 1&quot; of a mode
       <characteristics>
         <characteristic name="Type" typeId="f90e-171a-4ca6-3845">1-Handed</characteristic>
         <characteristic name="Range" typeId="31a7-b5e8-41dc-5fd1">36&quot;</characteristic>
-        <characteristic name="Keywords" typeId="8cd6-8018-f2da-5ede">BLAST 3&quot;, HEAVY, SCATTER</characteristic>
-        <characteristic name="Rules" typeId="87f0-637b-734a-22eb">If the Success Roll for a Ranged Attack with an M.U.R.A.D Bombard that targets an enemy model is a Success or a Critical Success, or if the attack is a Failure and the target point scatters onto a model’s base, apply the effect of the DEADLY Keyword to the Injury Roll for that model. All other models caught in the M.U.R.A.D. Bombard’s blast radius, or that are in the M.U.R.A.D. Bombard’s blast radius if it did not hit the target model or scatter onto a model’s base, are taken Down (do not make an Injury Roll for them)</characteristic>
+        <characteristic name="Keywords" typeId="8cd6-8018-f2da-5ede">+1 DICE, BLAST 3&quot;, HEAVY, SCATTER</characteristic>
+        <characteristic name="Rules" typeId="87f0-637b-734a-22eb">If the Success Roll for a Ranged Attack with an M.U.R.A.D Bombard that targets an enemy model is a Success or a Critical Success, or if the attack is a Failure and the target point scatters onto a model’s base, apply the effect of the DEADLY Keyword to the Injury Roll for that model. All other models caught in the M.U.R.A.D. Bombard’s blast radius, or that are in the M.U.R.A.D. Bombard’s blast radius if it did not hit the target model or scatter onto a model’s base, are taken Down (do not make an Injury Roll for them).</characteristic>
       </characteristics>
     </profile>
     <profile name="Flame Cannon" typeId="090c-b12e-592a-9874" typeName="Weapon" hidden="false" id="ac5c-14a9-8462-8ddd">
       <characteristics>
         <characteristic name="Type" typeId="f90e-171a-4ca6-3845">1-Handed</characteristic>
         <characteristic name="Range" typeId="31a7-b5e8-41dc-5fd1">12&quot;</characteristic>
-        <characteristic name="Keywords" typeId="8cd6-8018-f2da-5ede">FIRE, HEAVY, IGNORE ARMOUR</characteristic>
+        <characteristic name="Keywords" typeId="8cd6-8018-f2da-5ede">ASSAULT, FIRE, HEAVY, IGNORE ARMOUR</characteristic>
         <characteristic name="Rules" typeId="87f0-637b-734a-22eb">Greek Fire: When a Flame Cannon is used to make a Ranged Attack, do not make a Success Roll for the attack. Instead, measure a straight line 1mm wide and up to 12&quot; long from the attacking model to a point on the ground or a model’s base. The line stops if it reaches a terrain piece that is taller than the model making the Attack. Make an Injury Roll for every model (friend or foe) that is touched by the line, apart from the attacking model itself.</characteristic>
       </characteristics>
     </profile>
@@ -950,7 +950,7 @@ Deadly Embrace: Enemy models cannot retreat if they are within 1&quot; of a mode
       <characteristics>
         <characteristic name="Type" typeId="f90e-171a-4ca6-3845">2-handed</characteristic>
         <characteristic name="Range" typeId="31a7-b5e8-41dc-5fd1">12&quot;</characteristic>
-        <characteristic name="Keywords" typeId="8cd6-8018-f2da-5ede">SHRAPNEL</characteristic>
+        <characteristic name="Keywords" typeId="8cd6-8018-f2da-5ede">SHOTGUN, SHRAPNEL</characteristic>
         <characteristic name="Rules" typeId="87f0-637b-734a-22eb">-</characteristic>
       </characteristics>
     </profile>
