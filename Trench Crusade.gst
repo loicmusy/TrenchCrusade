@@ -101,7 +101,7 @@
       <description>If carrying a weapon, armour or equipment with this Keyword, the model cannot move/dash and shoot during its Activation, and the model cannot roll D6 and add it to the Charge move. A model can only carry one item with this Keyword.</description>
     </rule>
     <rule name="Infiltrator" id="154d-8072-ef87-e6c1" hidden="false">
-      <description>When a model with this Keyword is deployed for the first time in a game, it can be set up anywhere on the battlefield as long as it is out of the Line of Sight of all enemies and is at least 8&quot; away from the closest enemy. INFILTRATORS are deployed after models that do not have this Keyword. Any INFILTRATORS that cannot be deployed in this way are instead deployed normally in their deployment zone.</description>
+      <description>When a model with this Keyword is deployed for the first time in a game, it can be set up anywhere on the battlefield as long as it is out of the Line of Sight of all enemies and is at least 8&quot; away from the closest enemy. INFILTRATORS are deployed after models that do not have this Keyword. Any INFILTRATORS that cannot be deployed in this way for any reason can instead deploy up to 6&quot; outside their side&apos;s deployment zone.</description>
     </rule>
     <rule name="Tough" id="3c75-701d-e708-1438" hidden="false">
       <description>The first time a model with this Keyword suffers an Out of Action result on the Injury Table, it is treated as a Down result instead.</description>
