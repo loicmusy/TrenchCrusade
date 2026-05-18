@@ -123,7 +123,7 @@
       </profiles>
       <entryLinks>
         <entryLink import="true" name="Ammunitions" hidden="false" id="2830-5724-08ab-6bd0" type="selectionEntryGroup" targetId="a7db-7c08-54bb-880e"/>
-        <entryLink import="true" name="Bayonet" hidden="false" id="9884-4e95-7451-112b" type="selectionEntryGroup" targetId="aaf9-7a80-a920-1711" sortIndex="-1"/>
+        <entryLink import="true" name="Bayonet" hidden="false" id="9884-4e95-7451-112b" type="selectionEntryGroup" targetId="aaf9-7a80-a920-1711" sortIndex="1"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Flamethrower" hidden="false" id="985f-e0c3-b0e9-5f89">

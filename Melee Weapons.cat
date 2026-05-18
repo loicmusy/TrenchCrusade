@@ -179,7 +179,7 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name="Bayonet" id="aaf9-7a80-a920-1711" hidden="false" flatten="true">
+    <selectionEntryGroup name="Bayonet" id="aaf9-7a80-a920-1711" hidden="false">
       <entryLinks>
         <entryLink import="true" name="Bayonet" hidden="false" id="ca4d-901f-1037-1cb1" type="selectionEntry" targetId="2a56-df62-c8c1-9bc0">
           <costs>
